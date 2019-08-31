@@ -1,2 +1,6 @@
 [31-Aug-2019 11:26:04] NOTICE: fpm is running, pid 16
 [31-Aug-2019 11:26:04] NOTICE: ready to handle connections
+[31-Aug-2019 11:36:23] NOTICE: Terminating ...
+[31-Aug-2019 11:36:23] NOTICE: exiting, bye-bye!
+[31-Aug-2019 11:36:26] NOTICE: fpm is running, pid 54
+[31-Aug-2019 11:36:26] NOTICE: ready to handle connections
