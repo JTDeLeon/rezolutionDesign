@@ -1,2 +1,2 @@
-logs
-app\public\wp-content\themes\pixelGenesis\node_modules
+logs/
+*.log
