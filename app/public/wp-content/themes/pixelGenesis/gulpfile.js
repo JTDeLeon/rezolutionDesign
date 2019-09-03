@@ -83,4 +83,4 @@ watch('src/*.sass', styles);
 // watch('src/*.js', series(clean, javascript));
 };
 
-exports.default = series(clean, styles, javascript, images, styleMin, jsmin);
+exports.default = series(clean, styles, javascript, styleMin, jsmin);
