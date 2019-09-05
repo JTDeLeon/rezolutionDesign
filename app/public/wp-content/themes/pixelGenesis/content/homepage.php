@@ -27,13 +27,16 @@ wp_head();
  
 <!-- Begin Page Build Below -->
 
-<div class="page">
+<?php include 'partials/header.php' ?>
 
+<div class="page">
+    <hr>
     <h1>This is the homepage!!</h1>
     <h3>By Jonathan Deleon</h3>
-
+    <hr>
 </div>
 
+<?php include 'partials/footer.php' ?>
 <!-- End of Page Build -->
 
 <?php 
