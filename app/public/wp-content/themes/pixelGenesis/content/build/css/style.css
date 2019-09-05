@@ -1,3 +1,28 @@
+@font-face {
+  font-family: SequelSansBoldDisp;
+  src: url("../../../lib/css/fonts/Sequel-Sans-Bold-Disp.otf") format("opentype"); }
+
+@font-face {
+  font-family: SequelSansBookBody;
+  src: url("../../../lib/css/fonts/Sequel-Sans-Book-Body.otf") format("opentype"); }
+
+@font-face {
+  font-family: SequelSansHeavyDisp;
+  src: url("../../../lib/css/fonts/Sequel-Sans-Heavy-Disp.otf") format("opentype"); }
+
+@font-face {
+  font-family: SequelSansMediumBody;
+  src: url("../../../lib/css/fonts/Sequel-Sans-Medium-Body.otf") format("opentype"); }
+
+@font-face {
+  font-family: SequelSansRomanBody;
+  src: url("../../../lib/css/fonts/Sequel-Sans-Roman-Body.otf") format("opentype"); }
+
+@font-face {
+  font-family: SequelSansRomanDisp;
+  src: url("../../../lib/css/fonts/Sequel-Sans-Roman-Disp.otf") format("opentype"); }
+
 body {
   color: red;
-  text-align: center; }
+  text-align: center;
+  font-family: SequelSansBoldDisp; }
