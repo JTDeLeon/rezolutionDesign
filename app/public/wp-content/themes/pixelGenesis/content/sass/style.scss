@@ -76,6 +76,15 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
 .home {
 
     .section-00 {
@@ -206,7 +215,7 @@ header {
     }
     
     .section-02 {
-        margin: 70px 0;
+        margin: 70px 0 0;
         
         .one-column{
             padding: 30px 20px;
@@ -260,13 +269,202 @@ header {
         .descr-text {
             text-align: left;
             font-family: RomanBody;
-            font-size: 1em;
+            font-size: 0.9em;
             color: #252d4b;
             line-height: 1.3em;
         }
+    }
+    
+    .section-03 {
+        margin: 0px 0;
+        
+        .one-column{
+            padding: 30px 20px;
+        }
+        
+        .why {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 0 30px 50px;
+        }
+        
+        .why:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
         
         
+        .large-why {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 3.5em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 15px 0 0 50px;
+            
+            span {
+                font-size: 0.8em;
+            }
+        }
         
+        .large-award {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 0 20px 50px;
+        }
+        
+        .why-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #252d4b;
+            line-height: 1.5em;
+            margin: 0 0 10px 50px;
+        }
+        
+        .button-container {
+                margin: 30px 0 0 50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-04 {
+        margin: 0px 0;
+        
+        .one-column{
+            padding: 30px 20px;
+        }
+        
+        .why {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 0 30px 50px;
+        }
+        
+        .why:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-why {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 3.5em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 15px 0 0 50px;
+            
+            span {
+                font-size: 0.8em;
+            }
+        }
+        
+        .large-before {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: -180px 0 20px 50px;
+            position: relative;
+        }
+        
+        .large-after {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 0 20px 50px;
+            position: relative;
+        }
+        
+        .large-and {
+            text-align: center;
+            font-family: HeavyDisp;
+            font-size: 17em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: 0 0 0 -50px;
+            position: relative;
+        }
+        
+        .before-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #252d4b;
+            line-height: 1.5em;
+            margin: 0 0 10px 50px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 50%;
+                
+                .image-container {
+                    margin: 30px 0 0 -20px;
+                    
+                    .before-work {
+                        max-width: 100%
+                    }
+                }
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .right-side{
+                width: 100%;
+                
+                img {
+                    max-width: 100%;
+                }
+                
+                .image-container {
+                    margin: 50px -20px 0 -30px;
+                    
+                    .after-work {
+                        max-width: 100%
+                    }
+                }
+            }
+
+            
+        }
+        
+        .button-container {
+                margin: 30px 0 0 50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
     }
     
     

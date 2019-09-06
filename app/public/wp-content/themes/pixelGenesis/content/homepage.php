@@ -139,15 +139,66 @@ wp_head();
                 <p class="descr-text">Top searches are always on Google, we help people find your business faster with SEO services</p>
             </div>
         </div>
+    </div>
+</section>
+                
+<section class="section-03">
+    <div class="one-column">
+        <p class="why">WHY US</p>
         
+        <p class="large-why">142</p>
+        <p class="why-descr-text">Website launches currently active for 5+ Years</p>
         
+        <p class="large-why">97<span><sup>%</sup></span></p>
+        <p class="why-descr-text">Client Retention Rate</p>
+        
+        <p class="large-why">$200m</p>
+        <p class="why-descr-text">Annual Client GMV</p>
+        
+        <p class="large-award">Award Winning<br>Designers<br>& Developers</p>
+        <p class="why-descr-text">Our job is to make your business look fantastic. We deliver best practices, global brand exposure with high boost conversions that will change your business.  You're in Experts hands when working with Rezolutions Design.</p>
+        
+        <div class="button-container">
+            <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+        </div>
+    </div>
+</section>
+                
+<section class="section-04">
+    <div class="one-column">
+        <p class="large-and">&</p>
+        
+        <p class="large-before">Before</p>
+        
+        <div class="two-column">
+            <div class="left-side">
+                <div class="image-container">
+                    <img class="before-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-before.png">
+                </div>
+            </div>
+            
+            <div class="right-side">
+                <p class="large-after">After<br>Case Studies</p>
+                <p class="before-descr-text">We help Reputable businesses with old websites and polish it into stunning presentations for desktop and mobile.</p>
+                <div class="button-container">
+                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+                </div>
+                <div class="image-container">
+                    <img class="after-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-after.png">
+                </div>
+            </div>
+            
+        </div>
         
         
         
     </div>
 </section>
+                
+                
+                
 
-<hr>
+
 <?php include 'partials/footer.php' ?>
 <!-- End of Page Build -->
                 
