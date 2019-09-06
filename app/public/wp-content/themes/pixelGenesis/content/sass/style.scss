@@ -1,27 +1,27 @@
 // FONTS 
 //Reference the fonts using "font-family:FONT_NAME"
 @font-face {
-    font-family: SequelSansBoldDisp;
+    font-family: BoldDisp;
     src: url("../../../lib/css/fonts/Sequel-Sans-Bold-Disp.otf") format("opentype");
 }
 @font-face {
-    font-family: SequelSansBookBody;
+    font-family: BookBody;
     src: url("../../../lib/css/fonts/Sequel-Sans-Book-Body.otf") format("opentype");
 }
 @font-face {
-    font-family: SequelSansHeavyDisp;
+    font-family: HeavyDisp;
     src: url("../../../lib/css/fonts/Sequel-Sans-Heavy-Disp.otf") format("opentype");
 }
 @font-face {
-    font-family: SequelSansMediumBody;
+    font-family: MediumBody;
     src: url("../../../lib/css/fonts/Sequel-Sans-Medium-Body.otf") format("opentype");
 }
 @font-face {
-    font-family: SequelSansRomanBody;
+    font-family: RomanBody;
     src: url("../../../lib/css/fonts/Sequel-Sans-Roman-Body.otf") format("opentype");
 }
 @font-face {
-    font-family: SequelSansRomanDisp;
+    font-family: RomanDisp;
     src: url("../../../lib/css/fonts/Sequel-Sans-Roman-Disp.otf") format("opentype");
 }
 
@@ -29,8 +29,190 @@
 // This is where the styles for the overall site go
 
 body {
-    color: red;
-    text-align: center;
-    font-family: SequelSansBoldDisp;
+    color: #fff;
+    font-family: BoldDisp;
 }
 
+
+
+
+
+
+
+
+
+.home {
+
+    .section-00 {
+        position: relative;
+        height: 570px;
+        background-image: linear-gradient(135deg,#933e92, #3c5cf8);
+        clip-path: polygon(
+            0 0,
+            100% 0,
+            100% 100%,
+            0 calc(100% - 10vw)
+        );
+
+        .logo {
+            background: url(../image-min/section-01-mobile-lg-rez-logo-1.png) center center no-repeat;
+            background-size: contain;
+        }
+
+        .one-column {
+            padding: 30px 40px 0;
+        }
+
+        .headline {
+            font-family: HeavyDisp;
+            text-align: left;
+            font-size: 2.3em;
+            color: #fff;
+            line-height: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        .headline-descr {
+            font-family: BookBody;
+            text-align: left;
+            font-size: 1.0em;
+            color: #e0cff2;
+            padding: 0 80px 0 0;
+        }
+
+        .button-container {
+            margin: 0 0 0 -20px;
+
+            .work-button {
+                max-width: 70%;
+                margin: 10px 0;
+            }
+        }
+    }
+    
+    .section-01 {
+
+        .one-column {
+            padding: 30px 30px 0;
+        }
+        
+        .circle-1 {
+            margin: -13vh 0 0 40vw;
+            
+            .shopper {
+                z-index: 100;
+                position: absolute;
+                max-width: 27%;
+            }
+        }
+        
+        .wp-container {
+            margin: 8vh 0 0 0;
+            
+            .wordpress {
+                max-width: 15%;
+            }
+        }
+        
+        .circle-2 {
+            margin: -2vh 0 0 7vw;
+            
+            .merch {
+                max-width: 50%;
+            }
+        }
+        
+        .circle-3 {
+            margin: -19vh -18vh 0 52vw;
+            
+            .three-circles {
+                max-width: 25%;
+            }
+        }
+        
+        .s-container {
+            margin: -18vh -45vh 0 74vw;
+            
+            .shopify {
+                max-width: 15%;
+            }
+        }
+        
+        .woo-container {
+            margin: 7vh -85vh 0 70vw;
+            
+            .woo {
+                max-width: 12%;
+            }
+        }
+        
+        .mag-container {
+            margin: 2vh 0 0 0;
+            
+            .magento {
+                max-width: 20%;
+            }
+        }
+        
+        .circle-4 {
+            margin: -9vh -35vh 0 45vw;
+            
+            .three-circles {
+                max-width: 25%;
+            }
+        }
+    }
+    
+    .section-02 {
+        margin: 70px 0;
+        
+        .one-column{
+            padding: 30px 20px;
+        }
+        
+        .services {
+            text-align: left;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            //letter-spacing: 1px;
+        }
+        
+        .services:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        ul.logo-1 {
+            margin: 15px 0 0 -70px;
+
+            @media (min-width: 769px) {
+                margin: 15px 0 0 -40px;
+            }
+
+            li {
+                background-image: url('../image-min/section-02-mobile-web-logo.png');
+                padding: 20px 0 20px 50px;
+                background-position: left center;
+                background-repeat: no-repeat;
+                list-style: none;
+                font-size: 21px;
+                font-weight: 600;
+
+                //@media (min-width: 769px) {
+                    //background-image: url('../images/orange-check.png');
+                //}
+            }
+        }
+        
+        
+        
+    }
+    
+    
+    
+    
+}
