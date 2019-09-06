@@ -44,6 +44,19 @@
     
     </div>
     <div class="desk-footer">
-        <h1>This is the Desktop footer</h1>
+        <div class="inside-footer-container">
+            <h3 class="footer-title">TECHNOLOGY PARTNERS</h3>
+            <!-- First row of logos -->
+        <div class="row flex">
+            <img class="mauto mzeroleft" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyexperts.png" alt="">
+            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyplus.png" alt="">
+            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-drip.png" alt="">
+            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-klaviyc.png" alt="">
+            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-spently.png" alt="">
+            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-magento.png" alt="">
+            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-woocommerce.png" alt="">
+            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-wordpress.png" alt="">
+        </div>
+        </div>
     </div>
 </footer>

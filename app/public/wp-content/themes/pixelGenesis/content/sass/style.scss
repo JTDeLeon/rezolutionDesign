@@ -34,7 +34,7 @@ body {
 }
 
 
-
+// Global Header Styles
 header {
     .flex {
         display: flex;
@@ -45,6 +45,7 @@ header {
     .desk-header {
         display: none;
     }
+    // Mobile Header
     .mob-header {
         display: flex;
         padding: 30px 40px 0;
@@ -58,12 +59,72 @@ header {
 
 
     @media (min-width: 769px) {
-        .desk-header {
-            display: flex;
-        }
         .mob-header {
             display: none;
         }
+        // Desktop Header
+        .desk-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 40px 0;
+        
+            .left {
+                .logo-container {
+                    margin: auto;
+                    .logo {
+                        min-width: 70px;
+                    }
+                }
+                .menu-bar {
+                    margin: auto;
+                    margin-left: 30px;
+
+                    .navLink {
+                        width: 150px;
+                        height: 70px;
+                        display: flex;
+                        color: white;
+                        text-decoration: none;
+                        font-family: BookBody;
+                        @media (max-width: 860px) {
+                            width: auto;
+                        }
+
+                        .navContainer {
+                            margin: auto;
+                            width: 120px;
+                            p {
+                                margin: auto;
+                            }
+                            img {
+                                margin: auto;
+                            }
+                        }
+                    }
+
+                    .navLink:hover {
+                        background: #0f1c5d;
+                    }
+
+                }
+            }
+
+            .right {
+                width: 40%;
+                .header-social {
+                    margin: auto;
+                    flex-wrap: wrap;
+                    a {
+                        margin: 0 10px;
+                    }
+                }
+
+                .bookLink {
+                    margin: auto;
+                }
+            }
+        }
+        
     }
 }
 
@@ -258,6 +319,7 @@ header {
 
 
 
+// Global Footer Styles
 footer {
     .flex {
         display: flex;
@@ -269,6 +331,7 @@ footer {
         text-align: center;
     }
 
+    // Mobile Footer
     .mob-footer {
         background: url(../image-min/footer-rez-mob-bg.png) center center no-repeat;
         display: flex;
@@ -344,11 +407,37 @@ footer {
     }
 
     @media (min-width: 769px) {
-        .desk-footer {
-            display: flex;
-        }
         .mob-footer {
             display: none;
+        }
+        // Desktop Footer
+        .desk-footer {
+            background: url(../image-min/footer-rez-desk-bluebg.png) right bottom no-repeat;
+            display: flex;
+            min-height: 945px;
+            padding: 130px 30px;
+            flex-direction: column;
+            margin: auto;
+
+            .inside-footer-container {
+                width: 1500px;
+                margin: 100px 0 auto auto;
+                padding-left: 100px;
+                .footer-title {
+                    font-family: HeavyDisp;
+                    width: 200px;
+                    height: 70px;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    letter-spacing: 1.5px;
+                }
+
+                .row {
+                    .mzeroleft {
+                        margin-left: 0;
+                    }
+                }
+            }
         }
     }
    
