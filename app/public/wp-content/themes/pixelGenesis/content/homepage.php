@@ -36,7 +36,6 @@ wp_head();
     
 <?php include 'partials/header.php' ?>
     
-    <div class="logo">
         <div class="one-column">
             <p class="headline">Web Designs, <br>Ecommerce, <br>Maintenance & SEO</p>
             <p class="headline-descr">If your website isn't optimized for your unique business requirements, you're leaving money on the table.</p>
@@ -44,7 +43,6 @@ wp_head();
                 <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
             </div>
         </div>
-    </div>
 </section>
                 
 <section class="section-01">

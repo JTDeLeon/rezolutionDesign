@@ -51,47 +51,49 @@ header .mob-header {
 
 .home .section-00 {
   position: relative;
-  height: 570px;
+  height: 720px;
   background-image: linear-gradient(135deg, #933e92, #3c5cf8);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw)); }
-  .home .section-00 .logo {
-    background: url(../image-min/section-01-mobile-lg-rez-logo-1.png) center center no-repeat;
-    background-size: contain; }
   .home .section-00 .one-column {
-    padding: 30px 40px 0; }
+    background: url(../image-min/section-01-mobile-lg-rez-logo-1.png) center center no-repeat;
+    margin: -90px 0 0 0;
+    padding: 100px 40px 0;
+    background-size: 65%; }
   .home .section-00 .headline {
     font-family: HeavyDisp;
     text-align: left;
-    font-size: 2.3em;
+    font-size: 2.7em;
     color: #fff;
     line-height: 1.1em;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    padding: 50px 0 0; }
   .home .section-00 .headline-descr {
     font-family: BookBody;
     text-align: left;
-    font-size: 1.0em;
+    font-size: 1.1em;
+    line-height: 1.3em;
     color: #e0cff2;
-    padding: 0 80px 0 0; }
+    max-width: 80%; }
   .home .section-00 .button-container {
     margin: 0 0 0 -20px; }
     .home .section-00 .button-container .work-button {
       max-width: 70%;
-      margin: 10px 0; }
+      margin: 20px 0; }
 
 .home .section-01 .one-column {
   padding: 30px 30px 0; }
 
 .home .section-01 .circle-1 {
-  margin: -13vh 0 0 40vw; }
+  margin: -26% 0 0 50%; }
   .home .section-01 .circle-1 .shopper {
     z-index: 100;
     position: absolute;
     max-width: 27%; }
 
 .home .section-01 .wp-container {
-  margin: 8vh 0 0 0; }
+  margin: 15% 0 0 0; }
   .home .section-01 .wp-container .wordpress {
-    max-width: 15%; }
+    max-width: 12%; }
 
 .home .section-01 .circle-2 {
   margin: -2vh 0 0 7vw; }
@@ -99,12 +101,12 @@ header .mob-header {
     max-width: 50%; }
 
 .home .section-01 .circle-3 {
-  margin: -19vh -18vh 0 52vw; }
+  margin: -35% -17% 0 58%; }
   .home .section-01 .circle-3 .three-circles {
     max-width: 25%; }
 
 .home .section-01 .s-container {
-  margin: -18vh -45vh 0 74vw; }
+  margin: -30% -60% 0 80%; }
   .home .section-01 .s-container .shopify {
     max-width: 15%; }
 
