@@ -44,10 +44,49 @@ header .mob-header {
     cursor: pointer; }
 
 @media (min-width: 769px) {
-  header .desk-header {
-    display: flex; }
   header .mob-header {
-    display: none; } }
+    display: none; }
+  header .desk-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 0; }
+    header .desk-header .left .logo-container {
+      margin: auto; }
+      header .desk-header .left .logo-container .logo {
+        min-width: 70px; }
+    header .desk-header .left .menu-bar {
+      margin: auto;
+      margin-left: 30px; }
+      header .desk-header .left .menu-bar .navLink {
+        width: 150px;
+        height: 70px;
+        display: flex;
+        color: white;
+        text-decoration: none;
+        font-family: BookBody; } }
+      @media (min-width: 769px) and (max-width: 860px) {
+        header .desk-header .left .menu-bar .navLink {
+          width: auto; } }
+
+@media (min-width: 769px) {
+        header .desk-header .left .menu-bar .navLink .navContainer {
+          margin: auto;
+          width: 120px; }
+          header .desk-header .left .menu-bar .navLink .navContainer p {
+            margin: auto; }
+          header .desk-header .left .menu-bar .navLink .navContainer img {
+            margin: auto; }
+      header .desk-header .left .menu-bar .navLink:hover {
+        background: #0f1c5d; }
+    header .desk-header .right {
+      width: 40%; }
+      header .desk-header .right .header-social {
+        margin: auto;
+        flex-wrap: wrap; }
+        header .desk-header .right .header-social img {
+          margin: 0 10px; }
+      header .desk-header .right .bookLink {
+        margin: auto; } }
 
 .home .section-00 {
   position: relative;

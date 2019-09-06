@@ -34,7 +34,7 @@ body {
 }
 
 
-
+// Global Header Styles
 header {
     .flex {
         display: flex;
@@ -45,6 +45,7 @@ header {
     .desk-header {
         display: none;
     }
+    // Mobile Header
     .mob-header {
         display: flex;
         padding: 30px 40px 0;
@@ -58,12 +59,72 @@ header {
 
 
     @media (min-width: 769px) {
-        .desk-header {
-            display: flex;
-        }
         .mob-header {
             display: none;
         }
+        // Desktop Header
+        .desk-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 40px 0;
+        
+            .left {
+                .logo-container {
+                    margin: auto;
+                    .logo {
+                        min-width: 70px;
+                    }
+                }
+                .menu-bar {
+                    margin: auto;
+                    margin-left: 30px;
+
+                    .navLink {
+                        width: 150px;
+                        height: 70px;
+                        display: flex;
+                        color: white;
+                        text-decoration: none;
+                        font-family: BookBody;
+                        @media (max-width: 860px) {
+                            width: auto;
+                        }
+
+                        .navContainer {
+                            margin: auto;
+                            width: 120px;
+                            p {
+                                margin: auto;
+                            }
+                            img {
+                                margin: auto;
+                            }
+                        }
+                    }
+
+                    .navLink:hover {
+                        background: #0f1c5d;
+                    }
+
+                }
+            }
+
+            .right {
+                width: 40%;
+                .header-social {
+                    margin: auto;
+                    flex-wrap: wrap;
+                    img {
+                        margin: 0 10px;
+                    }
+                }
+
+                .bookLink {
+                    margin: auto;
+                }
+            }
+        }
+        
     }
 }
 
@@ -249,6 +310,7 @@ header {
 
 
 
+// Global Footer Styles
 footer {
     .flex {
         display: flex;
