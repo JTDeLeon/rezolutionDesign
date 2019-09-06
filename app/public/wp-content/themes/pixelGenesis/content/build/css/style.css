@@ -44,133 +44,92 @@ header .mob-header {
     cursor: pointer; }
 
 @media (min-width: 769px) {
-  header .mob-header {
-    display: none; }
   header .desk-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 40px 0; }
-    header .desk-header .left .logo-container {
-      margin: auto; }
-      header .desk-header .left .logo-container .logo {
-        min-width: 70px; }
-    header .desk-header .left .menu-bar {
-      margin: auto;
-      margin-left: 30px; }
-      header .desk-header .left .menu-bar .navLink {
-        width: 150px;
-        height: 70px;
-        display: flex;
-        color: white;
-        text-decoration: none;
-        font-family: BookBody; } }
-      @media (min-width: 769px) and (max-width: 860px) {
-        header .desk-header .left .menu-bar .navLink {
-          width: auto; } }
-
-@media (min-width: 769px) {
-        header .desk-header .left .menu-bar .navLink .navContainer {
-          margin: auto;
-          width: 120px; }
-          header .desk-header .left .menu-bar .navLink .navContainer p {
-            margin: auto; }
-          header .desk-header .left .menu-bar .navLink .navContainer img {
-            margin: auto; }
-      header .desk-header .left .menu-bar .navLink:hover {
-        background: #0f1c5d; }
-    header .desk-header .right {
-      width: 40%; }
-      header .desk-header .right .header-social {
-        margin: auto;
-        flex-wrap: wrap; }
-        header .desk-header .right .header-social a {
-          margin: 0 10px; }
-      header .desk-header .right .bookLink {
-        margin: auto; } }
+    display: flex; }
+  header .mob-header {
+    display: none; } }
 
 .home .section-00 {
   position: relative;
-  height: 570px;
+  height: 720px;
   background-image: linear-gradient(135deg, #933e92, #3c5cf8);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw)); }
-  .home .section-00 .logo {
-    background: url(../image-min/section-01-mobile-lg-rez-logo-1.png) center center no-repeat;
-    background-size: contain; }
   .home .section-00 .one-column {
-    padding: 30px 40px 0; }
+    background: url(../image-min/section-01-mobile-lg-rez-logo-1.png) center center no-repeat;
+    margin: -90px 0 0 0;
+    padding: 100px 40px 0;
+    background-size: 65%; }
   .home .section-00 .headline {
     font-family: HeavyDisp;
     text-align: left;
-    font-size: 2.3em;
+    font-size: 2.7em;
     color: #fff;
     line-height: 1.1em;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    padding: 50px 0 0; }
   .home .section-00 .headline-descr {
     font-family: BookBody;
     text-align: left;
-    font-size: 1.0em;
+    font-size: 1.1em;
+    line-height: 1.3em;
     color: #e0cff2;
-    padding: 0 80px 0 0; }
+    max-width: 80%; }
   .home .section-00 .button-container {
     margin: 0 0 0 -20px; }
     .home .section-00 .button-container .work-button {
       max-width: 70%;
-      margin: 10px 0; }
+      margin: 20px 0; }
 
 .home .section-01 .one-column {
   padding: 30px 30px 0; }
 
 .home .section-01 .circle-1 {
-  margin: -13vh 0 0 40vw; }
+  margin: -26% 0 0 50%; }
   .home .section-01 .circle-1 .shopper {
     z-index: 100;
     position: absolute;
     max-width: 27%; }
 
 .home .section-01 .wp-container {
-  margin: 8vh 0 0 0; }
+  margin: 15% 0 0 0; }
   .home .section-01 .wp-container .wordpress {
-    max-width: 15%; }
-
-.home .section-01 .circle-2 {
-  margin: -2vh 0 0 7vw; }
-  .home .section-01 .circle-2 .merch {
-    max-width: 50%; }
-
-.home .section-01 .circle-3 {
-  margin: -19vh -18vh 0 52vw; }
-  .home .section-01 .circle-3 .three-circles {
-    max-width: 25%; }
-
-.home .section-01 .s-container {
-  margin: -18vh -45vh 0 74vw; }
-  .home .section-01 .s-container .shopify {
-    max-width: 15%; }
-
-.home .section-01 .woo-container {
-  margin: 7vh -85vh 0 70vw; }
-  .home .section-01 .woo-container .woo {
     max-width: 12%; }
 
-.home .section-01 .mag-container {
-  margin: 2vh 0 0 0; }
-  .home .section-01 .mag-container .magento {
-    max-width: 20%; }
+.home .section-01 .circle-2 .merch {
+  max-width: 50%;
+  margin: -4% 0 0 9%; }
 
-.home .section-01 .circle-4 {
-  margin: -9vh -35vh 0 45vw; }
-  .home .section-01 .circle-4 .three-circles {
-    max-width: 25%; }
+.home .section-01 .circle-3 .three-circles {
+  max-width: 25%;
+  margin: -35% -17% 0 58%; }
+
+.home .section-01 .s-container .shopify {
+  max-width: 15%;
+  margin: -47% -60% 0 80%; }
+
+.home .section-01 .woo-container .woo {
+  max-width: 20%;
+  margin: -18% 0 0 78%; }
+
+.home .section-01 .mag-container .magento {
+  max-width: 20%;
+  margin: 0 0 0 0; }
+
+.home .section-01 .circle-4 .three-circles {
+  max-width: 25%;
+  margin: -22% -35% 0 52%; }
 
 .home .section-02 {
-  margin: 70px 0; }
+  margin: 70px 0 0; }
   .home .section-02 .one-column {
     padding: 30px 20px; }
   .home .section-02 .services {
     text-align: left;
+    font-family: HeavyDisp;
     font-size: 1.4em;
     color: #252d4b;
-    line-height: 1.1em; }
+    line-height: 1.1em;
+    margin: 0px 0 50px 50px; }
   .home .section-02 .services:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
@@ -182,19 +141,179 @@ header .mob-header {
     /* This creates some space between the element and the border. */
     border-bottom: 1px solid #252d4b;
     /* This creates the border. Replace black with whatever color you want. */ }
-  .home .section-02 ul.logo-1 {
-    margin: 15px 0 0 -70px; }
-    @media (min-width: 769px) {
-      .home .section-02 ul.logo-1 {
-        margin: 15px 0 0 -40px; } }
-    .home .section-02 ul.logo-1 li {
-      background-image: url("../image-min/section-02-mobile-web-logo.png");
-      padding: 20px 0 20px 50px;
-      background-position: left center;
-      background-repeat: no-repeat;
-      list-style: none;
-      font-size: 21px;
-      font-weight: 600; }
+  .home .section-02 .two-column {
+    display: flex;
+    flex-direction: row; }
+    .home .section-02 .two-column .left-side {
+      width: 9%; }
+      .home .section-02 .two-column .left-side img {
+        max-width: 100%; }
+    .home .section-02 .two-column .right-side {
+      width: 100%; }
+  .home .section-02 .service {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 5px 0 10px 50px; }
+  .home .section-02 .descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 0.9em;
+    color: #252d4b;
+    line-height: 1.3em; }
+
+.home .section-03 {
+  margin: 0px 0; }
+  .home .section-03 .one-column {
+    padding: 30px 20px; }
+  .home .section-03 .why {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 0px 0 30px 50px; }
+  .home .section-03 .why:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 180px;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #252d4b;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-03 .large-why {
+    text-align: left;
+    font-family: BoldDisp;
+    font-size: 3.5em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 15px 0 0 50px; }
+    .home .section-03 .large-why span {
+      font-size: 0.8em; }
+  .home .section-03 .large-award {
+    text-align: left;
+    font-family: BoldDisp;
+    font-size: 2.7em;
+    color: #252d4b;
+    line-height: 1em;
+    margin: 35px 0 20px 50px; }
+  .home .section-03 .why-descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 1.2em;
+    color: #252d4b;
+    line-height: 1.5em;
+    margin: 0 0 10px 50px; }
+  .home .section-03 .button-container {
+    margin: 30px 0 0 50px; }
+    .home .section-03 .button-container .work-button {
+      max-width: 70%; }
+
+.home .section-04 {
+  margin: 0px 0; }
+  .home .section-04 .one-column {
+    padding: 30px 20px; }
+  .home .section-04 .large-before {
+    text-align: left;
+    font-family: BoldDisp;
+    font-size: 2.7em;
+    color: #252d4b;
+    line-height: 1em;
+    margin: -180px 0 20px 50px;
+    position: relative; }
+  .home .section-04 .large-after {
+    text-align: left;
+    font-family: BoldDisp;
+    font-size: 2.7em;
+    color: #252d4b;
+    line-height: 1em;
+    margin: 35px 0 20px 50px;
+    position: relative; }
+  .home .section-04 .large-and {
+    text-align: center;
+    font-family: HeavyDisp;
+    font-size: 17em;
+    color: #eff0f1;
+    line-height: 1em;
+    margin: 0 0 0 -50px;
+    position: relative; }
+  .home .section-04 .before-descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 1.2em;
+    color: #252d4b;
+    line-height: 1.5em;
+    margin: 0 0 10px 50px; }
+  .home .section-04 .two-column {
+    display: flex;
+    flex-direction: row; }
+    .home .section-04 .two-column .left-side {
+      width: 50%; }
+      .home .section-04 .two-column .left-side .image-container {
+        margin: 30px 0 0 -20px; }
+        .home .section-04 .two-column .left-side .image-container .before-work {
+          max-width: 100%; }
+      .home .section-04 .two-column .left-side img {
+        max-width: 100%; }
+    .home .section-04 .two-column .right-side {
+      width: 100%; }
+      .home .section-04 .two-column .right-side img {
+        max-width: 100%; }
+      .home .section-04 .two-column .right-side .image-container {
+        margin: 50px -20px 0 -30px; }
+        .home .section-04 .two-column .right-side .image-container .after-work {
+          max-width: 100%; }
+  .home .section-04 .button-container {
+    margin: 30px 0 0 50px; }
+    .home .section-04 .button-container .work-button {
+      max-width: 70%; }
+
+.home .section-05 {
+  margin: 0px 0; }
+  .home .section-05 .one-column {
+    padding: 30px 20px; }
+  .home .section-05 .testimonial {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 0px 0 30px 50px; }
+  .home .section-05 .testimonial:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 180px;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #252d4b;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-05 .large-quote {
+    text-align: center;
+    font-family: HeavyDisp;
+    font-size: 17em;
+    color: #eff0f1;
+    line-height: 1em;
+    margin: 0 0 0 -50px;
+    position: relative; }
+  .home .section-05 .test-descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 1.2em;
+    color: #252d4b;
+    line-height: 1.5em;
+    margin: 0 0 10px 50px; }
+  .home .section-05 .button-container {
+    margin: 30px 0 0 50px; }
+    .home .section-05 .button-container .work-button {
+      max-width: 70%; }
 
 footer .flex {
   display: flex; }
@@ -255,9 +374,8 @@ footer .desk-footer {
   display: none; }
 
 @media (min-width: 769px) {
-  footer .mob-footer {
-    display: none; }
   footer .desk-footer {
+<<<<<<< HEAD
     background: url(../image-min/footer-rez-desk-bluebg.png) right bottom no-repeat;
     display: flex;
     min-height: 945px;
@@ -313,3 +431,8 @@ footer .desk-footer {
             width: 250px; }
         footer .desk-footer .inside-footer-container .bottom-sect .right {
           width: 50%; } }
+=======
+    display: flex; }
+  footer .mob-footer {
+    display: none; } }
+>>>>>>> c09cb15713c6344cde596e2d28a3359e8cebfc88
