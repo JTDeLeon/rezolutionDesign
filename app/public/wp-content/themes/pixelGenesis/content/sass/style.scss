@@ -34,7 +34,7 @@ body {
 }
 
 
-// Global Header Styles
+
 header {
     .flex {
         display: flex;
@@ -45,7 +45,6 @@ header {
     .desk-header {
         display: none;
     }
-    // Mobile Header
     .mob-header {
         display: flex;
         padding: 30px 40px 0;
@@ -59,74 +58,17 @@ header {
 
 
     @media (min-width: 769px) {
+        .desk-header {
+            display: flex;
+        }
         .mob-header {
             display: none;
         }
-        // Desktop Header
-        .desk-header {
-            display: flex;
-            justify-content: space-between;
-            padding: 30px 40px 0;
-        
-            .left {
-                .logo-container {
-                    margin: auto;
-                    .logo {
-                        min-width: 70px;
-                    }
-                }
-                .menu-bar {
-                    margin: auto;
-                    margin-left: 30px;
-
-                    .navLink {
-                        width: 150px;
-                        height: 70px;
-                        display: flex;
-                        color: white;
-                        text-decoration: none;
-                        font-family: BookBody;
-                        @media (max-width: 860px) {
-                            width: auto;
-                        }
-
-                        .navContainer {
-                            margin: auto;
-                            width: 120px;
-                            p {
-                                margin: auto;
-                            }
-                            img {
-                                margin: auto;
-                            }
-                        }
-                    }
-
-                    .navLink:hover {
-                        background: #0f1c5d;
-                    }
-
-                }
-            }
-
-            .right {
-                width: 40%;
-                .header-social {
-                    margin: auto;
-                    flex-wrap: wrap;
-                    a {
-                        margin: 0 10px;
-                    }
-                }
-
-                .bookLink {
-                    margin: auto;
-                }
-            }
-        }
-        
     }
 }
+
+
+
 
 
 
@@ -215,50 +157,50 @@ header {
         }
         
         .circle-2 {
-            margin: -2vh 0 0 7vw;
             
             .merch {
                 max-width: 50%;
+                margin: -4% 0 0 9%;
             }
         }
         
         .circle-3 {
-            margin: -35% -17% 0 58%;
             
             .three-circles {
                 max-width: 25%;
+                margin: -35% -17% 0 58%;
             }
         }
         
         .s-container {
-            margin: -30% -60% 0 80%;
             
             .shopify {
                 max-width: 15%;
+                margin: -47% -60% 0 80%;
             }
         }
         
         .woo-container {
-            margin: 7vh -85vh 0 70vw;
             
             .woo {
-                max-width: 12%;
+                max-width: 20%;
+                margin: -18% 0 0 78%;
             }
         }
         
         .mag-container {
-            margin: 2vh 0 0 0;
             
             .magento {
                 max-width: 20%;
+                margin: 0 0 0 0 ;
             }
         }
         
         .circle-4 {
-            margin: -9vh -35vh 0 45vw;
             
             .three-circles {
                 max-width: 25%;
+                margin: -22% -35% 0 52%;
             }
         }
     }
@@ -272,10 +214,11 @@ header {
         
         .services {
             text-align: left;
+            font-family: HeavyDisp;
             font-size: 1.4em;
             color: #252d4b;
             line-height: 1.1em;
-            //letter-spacing: 1px;
+            margin: 0px 0 50px 50px;
         }
         
         .services:after {
@@ -286,26 +229,40 @@ header {
             border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
         }
         
-        ul.logo-1 {
-            margin: 15px 0 0 -70px;
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 9%;
 
-            @media (min-width: 769px) {
-                margin: 15px 0 0 -40px;
+                img {
+                    max-width: 100%;
+                }
             }
 
-            li {
-                background-image: url('../image-min/section-02-mobile-web-logo.png');
-                padding: 20px 0 20px 50px;
-                background-position: left center;
-                background-repeat: no-repeat;
-                list-style: none;
-                font-size: 21px;
-                font-weight: 600;
-
-                //@media (min-width: 769px) {
-                    //background-image: url('../images/orange-check.png');
-                //}
+            .right-side{
+                width: 100%;
             }
+
+            
+        }
+        
+        .service {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 5px 0 10px 50px;
+        }
+        
+        .descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1em;
+            color: #252d4b;
+            line-height: 1.3em;
         }
         
         
@@ -319,7 +276,6 @@ header {
 
 
 
-// Global Footer Styles
 footer {
     .flex {
         display: flex;
@@ -331,7 +287,6 @@ footer {
         text-align: center;
     }
 
-    // Mobile Footer
     .mob-footer {
         background: url(../image-min/footer-rez-mob-bg.png) center center no-repeat;
         display: flex;
@@ -407,37 +362,11 @@ footer {
     }
 
     @media (min-width: 769px) {
+        .desk-footer {
+            display: flex;
+        }
         .mob-footer {
             display: none;
-        }
-        // Desktop Footer
-        .desk-footer {
-            background: url(../image-min/footer-rez-desk-bluebg.png) right bottom no-repeat;
-            display: flex;
-            min-height: 945px;
-            padding: 130px 30px;
-            flex-direction: column;
-            margin: auto;
-
-            .inside-footer-container {
-                width: 1500px;
-                margin: 100px 0 auto auto;
-                padding-left: 100px;
-                .footer-title {
-                    font-family: HeavyDisp;
-                    width: 200px;
-                    height: 70px;
-                    border-bottom: 1px solid white;
-                    color: white;
-                    letter-spacing: 1.5px;
-                }
-
-                .row {
-                    .mzeroleft {
-                        margin-left: 0;
-                    }
-                }
-            }
         }
     }
    

@@ -44,49 +44,10 @@ header .mob-header {
     cursor: pointer; }
 
 @media (min-width: 769px) {
-  header .mob-header {
-    display: none; }
   header .desk-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 40px 0; }
-    header .desk-header .left .logo-container {
-      margin: auto; }
-      header .desk-header .left .logo-container .logo {
-        min-width: 70px; }
-    header .desk-header .left .menu-bar {
-      margin: auto;
-      margin-left: 30px; }
-      header .desk-header .left .menu-bar .navLink {
-        width: 150px;
-        height: 70px;
-        display: flex;
-        color: white;
-        text-decoration: none;
-        font-family: BookBody; } }
-      @media (min-width: 769px) and (max-width: 860px) {
-        header .desk-header .left .menu-bar .navLink {
-          width: auto; } }
-
-@media (min-width: 769px) {
-        header .desk-header .left .menu-bar .navLink .navContainer {
-          margin: auto;
-          width: 120px; }
-          header .desk-header .left .menu-bar .navLink .navContainer p {
-            margin: auto; }
-          header .desk-header .left .menu-bar .navLink .navContainer img {
-            margin: auto; }
-      header .desk-header .left .menu-bar .navLink:hover {
-        background: #0f1c5d; }
-    header .desk-header .right {
-      width: 40%; }
-      header .desk-header .right .header-social {
-        margin: auto;
-        flex-wrap: wrap; }
-        header .desk-header .right .header-social a {
-          margin: 0 10px; }
-      header .desk-header .right .bookLink {
-        margin: auto; } }
+    display: flex; }
+  header .mob-header {
+    display: none; } }
 
 .home .section-00 {
   position: relative;
@@ -134,35 +95,29 @@ header .mob-header {
   .home .section-01 .wp-container .wordpress {
     max-width: 12%; }
 
-.home .section-01 .circle-2 {
-  margin: -2vh 0 0 7vw; }
-  .home .section-01 .circle-2 .merch {
-    max-width: 50%; }
+.home .section-01 .circle-2 .merch {
+  max-width: 50%;
+  margin: -4% 0 0 9%; }
 
-.home .section-01 .circle-3 {
+.home .section-01 .circle-3 .three-circles {
+  max-width: 25%;
   margin: -35% -17% 0 58%; }
-  .home .section-01 .circle-3 .three-circles {
-    max-width: 25%; }
 
-.home .section-01 .s-container {
-  margin: -30% -60% 0 80%; }
-  .home .section-01 .s-container .shopify {
-    max-width: 15%; }
+.home .section-01 .s-container .shopify {
+  max-width: 15%;
+  margin: -47% -60% 0 80%; }
 
-.home .section-01 .woo-container {
-  margin: 7vh -85vh 0 70vw; }
-  .home .section-01 .woo-container .woo {
-    max-width: 12%; }
+.home .section-01 .woo-container .woo {
+  max-width: 20%;
+  margin: -18% 0 0 78%; }
 
-.home .section-01 .mag-container {
-  margin: 2vh 0 0 0; }
-  .home .section-01 .mag-container .magento {
-    max-width: 20%; }
+.home .section-01 .mag-container .magento {
+  max-width: 20%;
+  margin: 0 0 0 0; }
 
-.home .section-01 .circle-4 {
-  margin: -9vh -35vh 0 45vw; }
-  .home .section-01 .circle-4 .three-circles {
-    max-width: 25%; }
+.home .section-01 .circle-4 .three-circles {
+  max-width: 25%;
+  margin: -22% -35% 0 52%; }
 
 .home .section-02 {
   margin: 70px 0; }
@@ -170,9 +125,11 @@ header .mob-header {
     padding: 30px 20px; }
   .home .section-02 .services {
     text-align: left;
+    font-family: HeavyDisp;
     font-size: 1.4em;
     color: #252d4b;
-    line-height: 1.1em; }
+    line-height: 1.1em;
+    margin: 0px 0 50px 50px; }
   .home .section-02 .services:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
@@ -184,19 +141,28 @@ header .mob-header {
     /* This creates some space between the element and the border. */
     border-bottom: 1px solid #252d4b;
     /* This creates the border. Replace black with whatever color you want. */ }
-  .home .section-02 ul.logo-1 {
-    margin: 15px 0 0 -70px; }
-    @media (min-width: 769px) {
-      .home .section-02 ul.logo-1 {
-        margin: 15px 0 0 -40px; } }
-    .home .section-02 ul.logo-1 li {
-      background-image: url("../image-min/section-02-mobile-web-logo.png");
-      padding: 20px 0 20px 50px;
-      background-position: left center;
-      background-repeat: no-repeat;
-      list-style: none;
-      font-size: 21px;
-      font-weight: 600; }
+  .home .section-02 .two-column {
+    display: flex;
+    flex-direction: row; }
+    .home .section-02 .two-column .left-side {
+      width: 9%; }
+      .home .section-02 .two-column .left-side img {
+        max-width: 100%; }
+    .home .section-02 .two-column .right-side {
+      width: 100%; }
+  .home .section-02 .service {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 5px 0 10px 50px; }
+  .home .section-02 .descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 1em;
+    color: #252d4b;
+    line-height: 1.3em; }
 
 footer .flex {
   display: flex; }
@@ -257,25 +223,7 @@ footer .desk-footer {
   display: none; }
 
 @media (min-width: 769px) {
-  footer .mob-footer {
-    display: none; }
   footer .desk-footer {
-    background: url(../image-min/footer-rez-desk-bluebg.png) right bottom no-repeat;
-    display: flex;
-    min-height: 945px;
-    padding: 130px 30px;
-    flex-direction: column;
-    margin: auto; }
-    footer .desk-footer .inside-footer-container {
-      width: 1500px;
-      margin: 100px 0 auto auto;
-      padding-left: 100px; }
-      footer .desk-footer .inside-footer-container .footer-title {
-        font-family: HeavyDisp;
-        width: 200px;
-        height: 70px;
-        border-bottom: 1px solid white;
-        color: white;
-        letter-spacing: 1.5px; }
-      footer .desk-footer .inside-footer-container .row .mzeroleft {
-        margin-left: 0; } }
+    display: flex; }
+  footer .mob-footer {
+    display: none; } }

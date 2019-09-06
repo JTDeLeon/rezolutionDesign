@@ -78,11 +78,70 @@ wp_head();
     <div class="one-column">
         <p class="services">OUR SERVICES</p>
         
-        <p class="web">Website Design</p>
-        <ul class="logo-1">
-            <li>The Digital front door of your business, our team is equipped to make it stand out professionally</li>
+        <p class="service">Website Design</p>
         
-        </ul>
+        <div class="two-column">
+            <div class="left-side">
+                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-web-logo.png" alt="Website Design" align="middle">
+            </div>
+            
+            <div class="right-side">
+                <p class="descr-text">The Digital front door of your business, our team is equipped to make it stand out professionally</p>
+            </div>
+        </div>
+        
+        <p class="service">Logo Design</p>
+        <div class="two-column">
+            <div class="left-side">
+                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-logo-logo.png" alt="Logo Design" align="middle">
+            </div>
+            <div class="right-side">
+                <p class="descr-text">Rather if its starting from scratch or your business needs a rebrand, the logo is the face of your company</p>
+            </div>
+        </div>
+        
+        <p class="service">Maintenance</p>
+        <div class="two-column">
+            <div class="left-side">
+                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-maintenance-logo.png" alt="Maintenance" align="middle">
+            </div>
+            <div class="right-side">
+                <p class="descr-text">Creating backups, finetune updates, add new products, update contents and banners, update pricing</p>
+            </div>
+        </div>
+        
+        <p class="service">Ecommerce Design</p>
+        <div class="two-column">
+            <div class="left-side">
+                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-ecom-logo.png" alt="Ecommerce Design" align="middle">
+            </div>
+            <div class="right-side">
+                <p class="descr-text">Modern digital storefront with responsiveness for desktop and mobile, catered for conversions turning customers to buyers</p>
+            </div>
+        </div>
+        
+        <p class="service">Social Media Marketing</p>
+        <div class="two-column">
+            <div class="left-side">
+                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-social-logo.png" alt="Social Media Marketing" align="middle">
+            </div>
+            <div class="right-side">
+                <p class="descr-text">Gain global exposure to produce brand awareness and lead traffic into your website</p>
+            </div>
+        </div>
+        
+        <p class="service">Search Engine Optimization</p>
+        <div class="two-column">
+            <div class="left-side">
+                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-seo-logo.png" alt="Search Engine Optimization" align="middle">
+            </div>
+            <div class="right-side">
+                <p class="descr-text">Top searches are always on Google, we help people find your business faster with SEO services</p>
+            </div>
+        </div>
+        
+        
+        
         
         
     </div>
