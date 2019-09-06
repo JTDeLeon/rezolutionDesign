@@ -26,6 +26,29 @@ body {
   color: #fff;
   font-family: BoldDisp; }
 
+header .flex {
+  display: flex; }
+
+header .mauto {
+  margin: auto; }
+
+header .desk-header {
+  display: none; }
+
+header .mob-header {
+  display: flex;
+  padding: 30px 40px 0;
+  justify-content: space-between; }
+  header .mob-header .hamburger {
+    margin-top: 0;
+    cursor: pointer; }
+
+@media (min-width: 769px) {
+  header .desk-header {
+    display: flex; }
+  header .mob-header {
+    display: none; } }
+
 .home .section-00 {
   position: relative;
   height: 570px;
@@ -133,3 +156,67 @@ body {
       list-style: none;
       font-size: 21px;
       font-weight: 600; }
+
+footer .flex {
+  display: flex; }
+
+footer .mauto {
+  margin: auto; }
+
+footer .aligncenter {
+  text-align: center; }
+
+footer .mob-footer {
+  background: url(../image-min/footer-rez-mob-bg.png) center center no-repeat;
+  display: flex;
+  min-height: 1100px;
+  padding: 130px 30px;
+  flex-direction: column;
+  max-width: 655px;
+  margin: auto; }
+  footer .mob-footer .footer-title {
+    font-family: HeavyDisp;
+    width: 200px;
+    height: 70px;
+    border-bottom: 1px solid white;
+    color: white;
+    letter-spacing: 1.5px; }
+  footer .mob-footer .row {
+    max-height: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 30px; }
+    @media (max-width: 550px) {
+      footer .mob-footer .row {
+        flex-wrap: wrap; } }
+    footer .mob-footer .row img {
+      margin-bottom: 0; }
+  footer .mob-footer .rezLogoBottom {
+    margin: 70px auto; }
+  footer .mob-footer .footerMenu div {
+    display: flex;
+    flex-direction: column; }
+    footer .mob-footer .footerMenu div a {
+      color: white;
+      font-family: BookBody;
+      text-decoration: none;
+      cursor: pointer;
+      margin: 5px 0; }
+  footer .mob-footer .footerMenu .left {
+    margin: 0; }
+  footer .mob-footer .socialBar {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%; }
+  footer .mob-footer .addr {
+    color: white;
+    font-family: BookBody; }
+
+footer .desk-footer {
+  display: none; }
+
+@media (min-width: 769px) {
+  footer .desk-footer {
+    display: flex; }
+  footer .mob-footer {
+    display: none; } }

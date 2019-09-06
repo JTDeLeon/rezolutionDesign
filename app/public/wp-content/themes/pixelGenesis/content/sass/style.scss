@@ -35,7 +35,37 @@ body {
 
 
 
+header {
+    .flex {
+        display: flex;
+    }
+    .mauto {
+        margin: auto;
+    }
+    .desk-header {
+        display: none;
+    }
+    .mob-header {
+        display: flex;
+        padding: 30px 40px 0;
+        justify-content: space-between;
 
+        .hamburger {
+            margin-top: 0;
+            cursor: pointer;
+        }
+    }
+
+
+    @media (min-width: 769px) {
+        .desk-header {
+            display: flex;
+        }
+        .mob-header {
+            display: none;
+        }
+    }
+}
 
 
 
@@ -215,4 +245,102 @@ body {
     
     
     
+}
+
+
+
+footer {
+    .flex {
+        display: flex;
+    }
+    .mauto {
+        margin: auto;
+    }
+    .aligncenter {
+        text-align: center;
+    }
+
+    .mob-footer {
+        background: url(../image-min/footer-rez-mob-bg.png) center center no-repeat;
+        display: flex;
+        min-height: 1100px;
+        padding: 130px 30px;
+        flex-direction: column;
+        max-width: 655px;
+        margin: auto;
+
+        .footer-title {
+            font-family: HeavyDisp;
+            width: 200px;
+            height: 70px;
+            border-bottom: 1px solid white;
+            color: white;
+            letter-spacing: 1.5px;
+        }
+
+        .row {
+            max-height: 100px;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+
+            @media (max-width: 550px) {
+                flex-wrap: wrap;
+                // width: 330px;
+            }
+        
+            img {
+                margin-bottom: 0;
+            }
+        }
+
+        .rezLogoBottom {
+            margin: 70px auto;
+        }
+
+        .footerMenu {
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    color: white;
+                    font-family: BookBody;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin: 5px 0;
+                }
+            }
+
+            .left {
+                margin: 0;
+            }
+        }
+
+        .socialBar {
+            margin: 100px auto;
+            display: flex;
+            justify-content: space-evenly;
+            width: 70%;
+        }
+
+        .addr {
+            color: white;
+            font-family: BookBody;
+        }
+    }
+
+    .desk-footer {
+        display: none;
+    }
+
+    @media (min-width: 769px) {
+        .desk-footer {
+            display: flex;
+        }
+        .mob-footer {
+            display: none;
+        }
+    }
+   
 }
