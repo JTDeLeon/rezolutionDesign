@@ -83,7 +83,7 @@ header .mob-header {
       header .desk-header .right .header-social {
         margin: auto;
         flex-wrap: wrap; }
-        header .desk-header .right .header-social img {
+        header .desk-header .right .header-social a {
           margin: 0 10px; }
       header .desk-header .right .bookLink {
         margin: auto; } }
@@ -255,7 +255,25 @@ footer .desk-footer {
   display: none; }
 
 @media (min-width: 769px) {
-  footer .desk-footer {
-    display: flex; }
   footer .mob-footer {
-    display: none; } }
+    display: none; }
+  footer .desk-footer {
+    background: url(../image-min/footer-rez-desk-bluebg.png) right bottom no-repeat;
+    display: flex;
+    min-height: 945px;
+    padding: 130px 30px;
+    flex-direction: column;
+    margin: auto; }
+    footer .desk-footer .inside-footer-container {
+      width: 1500px;
+      margin: 100px 0 auto auto;
+      padding-left: 100px; }
+      footer .desk-footer .inside-footer-container .footer-title {
+        font-family: HeavyDisp;
+        width: 200px;
+        height: 70px;
+        border-bottom: 1px solid white;
+        color: white;
+        letter-spacing: 1.5px; }
+      footer .desk-footer .inside-footer-container .row .mzeroleft {
+        margin-left: 0; } }

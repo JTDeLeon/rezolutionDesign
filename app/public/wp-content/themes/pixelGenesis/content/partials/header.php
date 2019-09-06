@@ -1,7 +1,9 @@
 <header>
     <!-- Mobile Version of Header -->
     <div class="mob-header">
-        <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-logowhite.png" alt="">
+        <a href="#">
+            <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-logowhite.png" alt="">
+        </a>
         <div class="flex">
             <img class="mauto hamburger" src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-mobile-hamburger.png" alt="">
         </div>
@@ -9,9 +11,9 @@
     <!-- Desktop Version of Header -->
     <div class="desk-header">
         <div class="left flex">
-            <div class="logo-container">
+            <a href="#" class="logo-container">
                 <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-logo.png" alt="" class="logo">
-            </div>
+            </a>
 
             <div class="menu-bar flex">
                 <a href="#" class="navLink">
@@ -37,9 +39,9 @@
 
         <div class="right flex">
             <div class="header-social">
-                <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-insta.png" alt="" class="socialIcon">
-                <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-linkin.png" alt="" class="socialIcon">
-                <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-fb.png" alt="" class="socialIcon">
+                <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-insta.png" alt="" class="socialIcon"></a>
+                <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-linkin.png" alt="" class="socialIcon"></a>
+                <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-fb.png" alt="" class="socialIcon"></a>
             </div>
 
             <a class="bookLink" href="#">
