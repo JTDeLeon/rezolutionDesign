@@ -181,17 +181,30 @@ wp_head();
                 <p class="large-after">After<br>Case Studies</p>
                 <p class="before-descr-text">We help Reputable businesses with old websites and polish it into stunning presentations for desktop and mobile.</p>
                 <div class="button-container">
-                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
                 </div>
                 <div class="image-container">
                     <img class="after-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-after.png">
                 </div>
             </div>
-            
         </div>
+    </div>
+</section>
+                
+<section class="section-05">
+    <div class="one-column">
+        <p class="testimonial">TESTIMONIALS</p>
         
+        <p class="large-quote">&</p>
         
+        <p class="why-descr-text">Website launches currently active for 5+ Years</p>
         
+        <p class="large-why">97<span><sup>%</sup></span></p>
+        <p class="why-descr-text">Client Retention Rate</p>
+        
+        <p class="large-why">$200m</p>
+        <p class="why-descr-text">Annual Client GMV</p>
+
     </div>
 </section>
                 

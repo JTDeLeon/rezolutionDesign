@@ -218,33 +218,6 @@ header .mob-header {
   margin: 0px 0; }
   .home .section-04 .one-column {
     padding: 30px 20px; }
-  .home .section-04 .why {
-    text-align: left;
-    font-family: HeavyDisp;
-    font-size: 1.4em;
-    color: #252d4b;
-    line-height: 1.1em;
-    margin: 0px 0 30px 50px; }
-  .home .section-04 .why:after {
-    content: "";
-    /* This is necessary for the pseudo element to work. */
-    display: block;
-    /* This will put the pseudo element on its own line. */
-    width: 180px;
-    /* Change this to whatever width you want. */
-    padding-top: 15px;
-    /* This creates some space between the element and the border. */
-    border-bottom: 1px solid #252d4b;
-    /* This creates the border. Replace black with whatever color you want. */ }
-  .home .section-04 .large-why {
-    text-align: left;
-    font-family: BoldDisp;
-    font-size: 3.5em;
-    color: #252d4b;
-    line-height: 1.1em;
-    margin: 15px 0 0 50px; }
-    .home .section-04 .large-why span {
-      font-size: 0.8em; }
   .home .section-04 .large-before {
     text-align: left;
     font-family: BoldDisp;
@@ -298,6 +271,48 @@ header .mob-header {
   .home .section-04 .button-container {
     margin: 30px 0 0 50px; }
     .home .section-04 .button-container .work-button {
+      max-width: 70%; }
+
+.home .section-05 {
+  margin: 0px 0; }
+  .home .section-05 .one-column {
+    padding: 30px 20px; }
+  .home .section-05 .testimonial {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 0px 0 30px 50px; }
+  .home .section-05 .testimonial:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 180px;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #252d4b;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-05 .large-quote {
+    text-align: center;
+    font-family: HeavyDisp;
+    font-size: 17em;
+    color: #eff0f1;
+    line-height: 1em;
+    margin: 0 0 0 -50px;
+    position: relative; }
+  .home .section-05 .test-descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 1.2em;
+    color: #252d4b;
+    line-height: 1.5em;
+    margin: 0 0 10px 50px; }
+  .home .section-05 .button-container {
+    margin: 30px 0 0 50px; }
+    .home .section-05 .button-container .work-button {
       max-width: 70%; }
 
 footer .flex {

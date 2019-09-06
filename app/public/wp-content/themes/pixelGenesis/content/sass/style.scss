@@ -74,17 +74,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .home {
 
     .section-00 {
@@ -348,36 +337,6 @@ header {
             padding: 30px 20px;
         }
         
-        .why {
-            text-align: left;
-            font-family: HeavyDisp;
-            font-size: 1.4em;
-            color: #252d4b;
-            line-height: 1.1em;
-            margin: 0px 0 30px 50px;
-        }
-        
-        .why:after {
-            content: ""; /* This is necessary for the pseudo element to work. */ 
-            display: block; /* This will put the pseudo element on its own line. */
-            width: 180px; /* Change this to whatever width you want. */
-            padding-top: 15px; /* This creates some space between the element and the border. */
-            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
-        }
-        
-        
-        .large-why {
-            text-align: left;
-            font-family: BoldDisp;
-            font-size: 3.5em;
-            color: #252d4b;
-            line-height: 1.1em;
-            margin: 15px 0 0 50px;
-            
-            span {
-                font-size: 0.8em;
-            }
-        }
         
         .large-before {
             text-align: left;
@@ -455,6 +414,60 @@ header {
             }
 
             
+        }
+        
+        .button-container {
+                margin: 30px 0 0 50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-05 {
+        margin: 0px 0;
+        
+        .one-column{
+            padding: 30px 20px;
+        }
+        
+        .testimonial {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 0 30px 50px;
+        }
+        
+        .testimonial:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-quote {
+            text-align: center;
+            font-family: HeavyDisp;
+            font-size: 17em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: 0 0 0 -50px;
+            position: relative;
+        }
+        
+        .test-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #252d4b;
+            line-height: 1.5em;
+            margin: 0 0 10px 50px;
         }
         
         .button-container {
