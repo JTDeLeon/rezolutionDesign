@@ -336,7 +336,7 @@ wp_head();
     </div>
 </section>
                 
-<section class="section-04">
+<section class="section-04-mobile">
     <div class="one-column">
         <p class="large-and">&</p>
         
@@ -363,7 +363,34 @@ wp_head();
     </div>
 </section>
                 
-<section class="section-05">
+<section class="section-04">
+    <div class="one-column">
+        <div class="two-column">
+            <div class="left-side">
+                <p class="large-and">&</p>
+        
+                <p class="large-before">Before</p>
+                
+                <div class="image-container">
+                    <img class="before-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-dsktp-before.png">
+                </div>
+            </div>
+            
+            <div class="right-side">
+                <p class="large-after">After<br>Case Studies</p>
+                <p class="before-descr-text">We help Reputable businesses with old websites and polish it into stunning presentations for desktop and mobile.</p>
+                <div class="button-container">
+                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
+                </div>
+                <div class="image-container">
+                    <img class="after-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-dsktp-after.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                
+<section class="section-05-mobile">
     <div class="one-column">
         <p class="testimonial">TESTIMONIALS</p>
         
@@ -391,7 +418,70 @@ wp_head();
     </div>
 </section>
                 
-<section class="section-06">
+<section class="section-05">
+    <div class="one-column">
+        <p class="testimonial">TESTIMONIALS</p>
+        
+        <p class="large-quote">“</p>
+        
+        <div class="two-column">
+            <div class="quotes">
+                <p class="test-descr-text">As you wish. Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Kid, I've flown from one side of this galaxy to the other.</p>
+
+                <div class="two-column">
+                    <div class="left-side">
+                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                    </div>
+                    <div class="right-side">
+                        <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
+                        <div class="stars">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quotes">
+                <p class="test-descr-text">As you wish. Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Kid, I've flown from one side of this galaxy to the other.</p>
+
+                <div class="two-column">
+                    <div class="left-side">
+                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                    </div>
+                    <div class="right-side">
+                        <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
+                        <div class="stars">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quotes">
+                <p class="test-descr-text">As you wish. Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Kid, I've flown from one side of this galaxy to the other.</p>
+
+                <div class="two-column">
+                    <div class="left-side">
+                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                    </div>
+                    <div class="right-side">
+                        <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
+                        <div class="stars">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="pagination">
+            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-pagination.png" align="middle">
+        </div>
+    </div>
+</section>
+                
+<section class="section-06-mobile">
     <div class="one-column">
         <p class="contact">CONTACT US</p>
         <p class="large-contact">Get in touch,<br>we’ll love to<br>hear from you</p>
@@ -409,6 +499,35 @@ wp_head();
         
         <div class="button-container">
             <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
+        </div>
+    </div>
+</section>
+                
+<section class="section-06">
+    <div class="one-column">
+        <p class="contact">CONTACT US</p>
+        
+        <div class="two-column">
+            <div class="left-side">
+                <p class="large-contact">Get in touch,<br>we’ll love to<br>hear from you</p>
+            </div>
+
+            <div class="right-side">
+                <p class="contact-descr-text">Your Name</p>
+                <p class="entered">Cosmin Neagu</p>
+
+                <p class="entry">Email Address</p>
+
+                <p class="entry">Phone</p>
+
+                <p class="entry">What Service(s) are you interested in? <img class="arrow" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
+
+                <p class="entry">How did you find us?</p>
+
+                <div class="button-container">
+                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
+                </div>
+            </div>
         </div>
     </div>
 </section>

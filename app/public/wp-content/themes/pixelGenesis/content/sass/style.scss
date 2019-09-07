@@ -557,6 +557,7 @@ header {
             
             .left-side {
                 width: 50%;
+                margin: 0 30px 0;
 
                 img {
                     max-width: 100%;
@@ -695,7 +696,7 @@ header {
             flex-direction: row;
             
             .left-side {
-                width: 50%;
+                width: 33%;
 
                 img {
                     max-width: 100%;
@@ -728,7 +729,7 @@ header {
         .large-why {
             text-align: left;
             font-family: BoldDisp;
-            font-size: 3.5em;
+            font-size: 4.9em;
             color: #252d4b;
             line-height: 1.1em;
             margin: 15px 30px 0 50px;
@@ -741,7 +742,7 @@ header {
         .large-award {
             text-align: left;
             font-family: BoldDisp;
-            font-size: 2.7em;
+            font-size: 3.7em;
             color: #252d4b;
             line-height: 1em;
             margin: 35px 30px 20px 50px;
@@ -766,8 +767,11 @@ header {
         }
     }
     
-    .section-04 {
+    .section-04-mobile {
         margin: 0px 0;
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
         
         .one-column{
             max-width: 1260px;
@@ -864,8 +868,100 @@ header {
         }
     }
     
-    .section-05 {
+    .section-04 {
         margin: 0px 0;
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        
+        .large-before {
+            text-align: right;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: -110px 75px 0 0;
+            position: relative;
+        }
+        
+        .large-after {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 200px 30px 20px 0;
+            position: relative;
+        }
+        
+        .large-and {
+            text-align: right;
+            font-family: HeavyDisp;
+            font-size: 14em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: -40px -90px 0 0;
+            position: relative;
+        }
+        
+        .before-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #5e5e5e;
+            line-height: 1.5em;
+            margin: 0 0 10px 0;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 33%;
+                margin: 0 30px 0;
+                
+                .image-container {
+                    margin: 60px 50px 0 0;
+                    text-align: right;
+                }
+
+                img {
+                    max-width: 90%;
+                }
+            }
+
+            .right-side{
+                width: 65%;
+                
+                .image-container {
+                        margin: 40px auto 0;
+                }
+            }
+        }
+        
+        .button-container {
+                margin: 30px 30px 0 0;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-05-mobile {
+        margin: 0px 0;
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
         
         .one-column{
             max-width: 1260px;
@@ -946,8 +1042,102 @@ header {
         }
     }
     
-    .section-06 {
+    .section-05 {
         margin: 0px 0;
+         @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .testimonial {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px -60px 50px;
+            position: relative;
+        }
+        
+        .testimonial:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-quote {
+            text-align: left;
+            font-family: MediumBody;
+            font-size: 17em;
+            color: #eff0f1;
+            line-height: 1em;
+            margin: 0 0 -160px -50px;
+        }
+        
+        .quotes {
+            margin: 0 100px 0 50px;
+            .test-descr-text {
+                text-align: left;
+                font-family: RomanBody;
+                font-size: 0.9em;
+                color: #5e5e5e;
+                line-height: 1.3em;
+            }
+            
+            .two-column {
+                display: flex;
+                flex-direction: row;
+
+                .left-side {
+                    width: 20%;
+                    margin: 0 10px 0;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .right-side{
+                    width: 100%;
+                    
+                    .descr-text {
+                        text-align: left;
+                        font-family: RomanBody;
+                        font-size: 0.9em;
+                        color: #5e5e5e;
+                        line-height: 1.3em;
+                    }
+                    
+                    .stars {
+                        margin: -15px 0 0 0;
+                    }
+                }
+            }
+        }
+        
+        .pagination {
+            text-align: center;
+        }
+    }
+    
+    .section-06-mobile {
+        margin: 0px 0;
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
         
         .one-column{
             max-width: 1260px;
@@ -1051,6 +1241,138 @@ header {
             }
         }
     }
+    
+    .section-06 {
+        margin: 0px 0;
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .contact {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .contact:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .large-contact {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 30px 20px 50px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: column;
+
+            @media only screen and (min-width: 768px){
+                flex-direction: row;
+                margin: auto;
+            }
+
+            .right-side-text {
+
+            }
+
+            .left-side {
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        
+        .contact-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: .9em;
+            color: #3a5dfb;
+            line-height: 1.5em;
+            margin: 0 30px 10px 50px;
+        }
+        
+        .entered {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #3a5dfb;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .entered:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 95%; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #bfc2ce; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .entry {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #bfc2ce;
+            line-height: 1.1em;
+            margin: 40px 30px 30px 50px;
+            
+            @media screen and (max-width: 600px) {
+                font-size: 1em;
+            }
+            @media screen and (max-width: 550px) {
+                font-size: .8em;
+            }
+            @media screen and (max-width: 485px) {
+                font-size: .7em;
+            }
+            @media screen and (max-width: 435px) {
+                font-size: .6em;
+            }
+        }
+        
+        .entry:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 95%; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #bfc2ce; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .arrow {
+            margin: 0 0 0 8vw;
+        }
+        
+        .button-container {
+                text-align: center;
+                margin: 50px auto -50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    
     
     
     
