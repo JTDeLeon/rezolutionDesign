@@ -38,15 +38,66 @@ wp_head();
 <?php include 'partials/header.php' ?>
     
         <div class="one-column">
-            <p class="headline">Web Designs, <br>Ecommerce, <br>Maintenance & SEO</p>
+            <p class="headline">Web Designs, <br class="brkpt">Ecommerce, <br>Maintenance & SEO</p>
             <p class="headline-descr">If your website isn't optimized for your unique business requirements, you're leaving money on the table.</p>
             <div class="button-container">
                 <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
             </div>
+            
+            <div class="circles">
+                <div class="circle-1">
+                    <img class="shopper" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-shopper.png">
+                </div>
+            </div>
+            
+            <div class="circles">
+                <div class="wp-container">
+                    <img class="wordpress" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-wordpress.png">
+                </div>
+            </div>
+            
+            <div class="circles">
+                <div class="circle-2">
+                    <img class="merch" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-merch.png">
+                </div>
+            </div>
+            
+            <div class="circles">
+                <div class="circle-3">
+                    <img class="three-circles" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-three-dots.png">
+                </div>
+            </div>
+            
+            <div class="circles">
+                <div class="s-container">
+                    <img class="shopify" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-shopify.png">
+                </div>
+            </div>
+            
+            <div class="circles">
+                <div class="woo-container">
+                    <img class="woo" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-desktp-woo.png">
+                </div>
+            </div>
+            
+            <div class="circles">
+                <div class="mag-container">
+                    <img class="magento" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-magento.png">
+                </div>
+            </div>
+            
+            <div class="circles">
+                <div class="circle-4">
+                    <img class="three-circles" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-iPad.png">
+                </div>
+            </div>
+            
+            
+            
         </div>
 </section>
                 
-<section class="section-01">
+<section class="section-01-mobile">
     <div class="one-column">
         <div class="circle-1">
             <img class="shopper" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-shopper.png">
@@ -196,16 +247,49 @@ wp_head();
     <div class="one-column">
         <p class="testimonial">TESTIMONIALS</p>
         
-        <p class="large-quote">&</p>
+        <p class="large-quote">“</p>
         
-        <p class="why-descr-text">Website launches currently active for 5+ Years</p>
+        <div class="quotes">
+            <p class="test-descr-text">As you wish. Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Kid, I've flown from one side of this galaxy to the other.</p>
+            
+            <div class="two-column">
+                <div class="left-side">
+                    <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                </div>
+                <div class="right-side">
+                    <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
+                    <div class="stars">
+                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                    </div>
+                </div>
+            </div>
+        </div>
         
-        <p class="large-why">97<span><sup>%</sup></span></p>
-        <p class="why-descr-text">Client Retention Rate</p>
+        <div class="pagination">
+            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-pagination.png" align="middle">
+        </div>
+    </div>
+</section>
+                
+<section class="section-06">
+    <div class="one-column">
+        <p class="contact">CONTACT US</p>
+        <p class="large-contact">Get in touch,<br>we’ll love to<br>hear from you</p>
         
-        <p class="large-why">$200m</p>
-        <p class="why-descr-text">Annual Client GMV</p>
-
+        <p class="contact-descr-text">Your Name</p>
+        <p class="entered">Cosmin Neagu</p>
+        
+        <p class="entry">Email Address</p>
+        
+        <p class="entry">Phone</p>
+        
+        <p class="entry">What Service(s) are you interested in? <img class="arrow" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
+        
+        <p class="entry">How did you find us?</p>
+        
+        <div class="button-container">
+            <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
+        </div>
     </div>
 </section>
                 

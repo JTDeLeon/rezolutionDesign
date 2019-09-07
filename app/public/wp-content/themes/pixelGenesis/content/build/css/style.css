@@ -43,7 +43,7 @@ header .mob-header {
     margin-top: 0;
     cursor: pointer; }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   header .mob-header {
     display: none; }
   header .desk-header {
@@ -66,11 +66,11 @@ header .mob-header {
         color: white;
         text-decoration: none;
         font-family: BookBody; } }
-      @media (min-width: 769px) and (max-width: 860px) {
+      @media (min-width: 768px) and (max-width: 860px) {
         header .desk-header .left .menu-bar .navLink {
           width: auto; } }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
         header .desk-header .left .menu-bar .navLink .navContainer {
           margin: auto;
           width: 120px; }
@@ -101,79 +101,224 @@ header .mob-header {
       header .desk-header .right .bookLink {
         margin: auto; } }
 
-.home .section-00 {
-  position: relative;
-  height: 720px;
-  background-image: linear-gradient(135deg, #933e92, #3c5cf8);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw)); }
-  .home .section-00 .one-column {
-    background: url(../image-min/section-01-mobile-lg-rez-logo-1.png) center center no-repeat;
-    margin: -90px 0 0 0;
-    padding: 100px 40px 0;
-    background-size: 65%; }
-  .home .section-00 .headline {
-    font-family: HeavyDisp;
-    text-align: left;
-    font-size: 2.7em;
-    color: #fff;
-    line-height: 1.1em;
-    letter-spacing: 1px;
-    padding: 50px 0 0; }
-  .home .section-00 .headline-descr {
-    font-family: BookBody;
-    text-align: left;
-    font-size: 1.1em;
-    line-height: 1.3em;
-    color: #e0cff2;
-    max-width: 80%; }
-  .home .section-00 .button-container {
-    margin: 0 0 0 -20px; }
-    .home .section-00 .button-container .work-button {
-      max-width: 70%;
-      margin: 20px 0; }
+@media screen and (max-width: 767px) {
+  .home .section-00 {
+    position: relative;
+    height: 720px;
+    background-image: linear-gradient(135deg, #933e92, #3c5cf8);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw)); } }
 
-.home .section-01 .one-column {
+@media screen and (max-width: 550px) {
+  .home .section-00 {
+    height: 680px; } }
+
+@media screen and (max-width: 485px) {
+  .home .section-00 {
+    height: 650px; } }
+
+@media screen and (min-width: 768px) {
+  .home .section-00 {
+    background: url(../image-min/section-00-bkgd.png) left top no-repeat;
+    background-size: 1240px;
+    height: 810px; } }
+
+.home .section-00 .one-column {
+  background: url(../image-min/section-01-mobile-lg-rez-logo-2.png) center center no-repeat;
+  max-width: 1260px;
+  margin: -90px auto 0;
+  padding: 100px 40px 0;
+  background-size: 65%; }
+  @media screen and (min-width: 768px) {
+    .home .section-00 .one-column {
+      background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
+      background-position-y: 2vw; } }
+  @media screen and (min-width: 1024px) {
+    .home .section-00 .one-column {
+      background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
+      background-position-x: 19vw;
+      background-position-y: 2vw; } }
+
+.home .section-00 .headline {
+  font-family: HeavyDisp;
+  text-align: left;
+  font-size: 2.7em;
+  color: #fff;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+  padding: 50px 0 0; }
+  @media screen and (max-width: 550px) {
+    .home .section-00 .headline {
+      font-size: 2.3em; } }
+  @media screen and (max-width: 485px) {
+    .home .section-00 .headline {
+      font-size: 2em; } }
+  @media screen and (max-width: 435px) {
+    .home .section-00 .headline {
+      font-size: 1.65em; } }
+
+.home .section-00 .headline-descr {
+  font-family: BookBody;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  color: #e0cff2;
+  max-width: 670px; }
+
+.home .section-00 .button-container {
+  margin: 0 0 0 -20px; }
+  @media screen and (min-width: 768px) {
+    .home .section-00 .button-container {
+      margin: 70px 0 0 -20px; } }
+  .home .section-00 .button-container .work-button {
+    max-width: 70%;
+    margin: 20px 0; }
+
+@media screen and (min-width: 768px) {
+  .home .section-00 .brkpt {
+    display: none; } }
+
+@media screen and (max-width: 767px) {
+  .home .section-00 .circles {
+    display: none; } }
+
+.home .section-00 .circles .circle-1 {
+  margin: -430px 0 0 85%; }
+  .home .section-00 .circles .circle-1 .shopper {
+    z-index: 100;
+    position: absolute;
+    max-width: 100%; }
+
+.home .section-00 .circles .wp-container {
+  margin: 190px 40% 0 0;
+  text-align: right; }
+  .home .section-00 .circles .wp-container .wordpress {
+    z-index: 100;
+    max-width: 12%; }
+
+.home .section-00 .circles .circle-2 {
+  margin: -110px 140px 0 0;
+  text-align: right; }
+  .home .section-00 .circles .circle-2 .merch {
+    z-index: 100;
+    max-width: 100%; }
+
+.home .section-00 .circles .circle-3 {
+  margin: -225px 120px 0 0;
+  text-align: right; }
+  .home .section-00 .circles .circle-3 .three-circles {
+    z-index: 100;
+    position: absolute;
+    max-width: 100%; }
+
+.home .section-00 .circles .s-container {
+  margin: 0 0 0 0;
+  text-align: center; }
+  .home .section-00 .circles .s-container .shopify {
+    z-index: 100;
+    position: absolute;
+    max-width: 100%; }
+
+.home .section-00 .circles .woo-container {
+  margin: 150px 320px 0 0;
+  text-align: center; }
+  .home .section-00 .circles .woo-container .woo {
+    z-index: 100;
+    position: absolute;
+    max-width: 100%; }
+
+.home .section-00 .circles .mag-container {
+  margin: 10px 0 0 0;
+  text-align: center; }
+  .home .section-00 .circles .mag-container .magento {
+    z-index: 100;
+    position: absolute;
+    max-width: 100%; }
+
+.home .section-00 .circles .circle-4 {
+  margin: 260px 150px 0 0;
+  text-align: right; }
+  .home .section-00 .circles .circle-4 .three-circles {
+    z-index: 100;
+    position: absolute;
+    max-width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .home .section-01-mobile {
+    display: none; } }
+
+.home .section-01-mobile .one-column {
+  max-width: 1260px;
+  margin: auto;
   padding: 30px 30px 0; }
 
-.home .section-01 .circle-1 {
+.home .section-01-mobile .circle-1 {
   margin: -26% 0 0 50%; }
-  .home .section-01 .circle-1 .shopper {
+  @media screen and (min-width: 641px) {
+    .home .section-01-mobile .circle-1 {
+      margin: -150px 0 0 50%; } }
+  .home .section-01-mobile .circle-1 .shopper {
     z-index: 100;
     position: absolute;
     max-width: 27%; }
 
-.home .section-01 .wp-container {
+.home .section-01-mobile .wp-container {
   margin: 15% 0 0 0; }
-  .home .section-01 .wp-container .wordpress {
+  @media screen and (min-width: 641px) {
+    .home .section-01-mobile .wp-container {
+      margin: 90px 0 0 0; } }
+  .home .section-01-mobile .wp-container .wordpress {
     max-width: 12%; }
 
-.home .section-01 .circle-2 .merch {
-  max-width: 50%;
-  margin: -4% 0 0 9%; }
+.home .section-01-mobile .circle-2 {
+  margin: -4% 0 0 10%; }
+  @media screen and (min-width: 641px) {
+    .home .section-01-mobile .circle-2 {
+      margin: -22px 0 0 10%; } }
+  .home .section-01-mobile .circle-2 .merch {
+    max-width: 48%; }
+    @media screen and (min-width: 641px) {
+      .home .section-01-mobile .circle-2 .merch {
+        max-width: 53%; } }
 
-.home .section-01 .circle-3 .three-circles {
-  max-width: 25%;
-  margin: -35% -17% 0 58%; }
+.home .section-01-mobile .circle-3 {
+  margin: -31% -17% 0 58%; }
+  @media screen and (min-width: 641px) {
+    .home .section-01-mobile .circle-3 {
+      margin: -202px -17% 0 58%; } }
+  .home .section-01-mobile .circle-3 .three-circles {
+    max-width: 20%; }
 
-.home .section-01 .s-container .shopify {
-  max-width: 15%;
-  margin: -47% -60% 0 80%; }
+.home .section-01-mobile .s-container {
+  margin: -26% -60% 0 80%; }
+  @media screen and (min-width: 641px) {
+    .home .section-01-mobile .s-container {
+      margin: -149px -60% 0 80%; } }
+  .home .section-01-mobile .s-container .shopify {
+    max-width: 15%; }
 
-.home .section-01 .woo-container .woo {
-  max-width: 20%;
-  margin: -18% 0 0 78%; }
+.home .section-01-mobile .woo-container {
+  margin: 9% 0 0 78%; }
+  .home .section-01-mobile .woo-container .woo {
+    max-width: 100%; }
 
-.home .section-01 .mag-container .magento {
-  max-width: 20%;
-  margin: 0 0 0 0; }
+.home .section-01-mobile .mag-container {
+  margin: 5% 0 0 0; }
+  .home .section-01-mobile .mag-container .magento {
+    max-width: 20%; }
 
-.home .section-01 .circle-4 .three-circles {
-  max-width: 25%;
-  margin: -22% -35% 0 52%; }
+.home .section-01-mobile .circle-4 {
+  margin: -22% -35% 0 54%; }
+  @media screen and (min-width: 641px) {
+    .home .section-01-mobile .circle-4 {
+      margin: -128px -35% 0 49vw; } }
+  .home .section-01-mobile .circle-4 .three-circles {
+    max-width: 25%; }
 
 .home .section-02 {
   margin: 70px 0 0; }
   .home .section-02 .one-column {
+    max-width: 1260px;
+    margin: auto;
     padding: 30px 20px; }
   .home .section-02 .services {
     text-align: left;
@@ -181,7 +326,7 @@ header .mob-header {
     font-size: 1.4em;
     color: #252d4b;
     line-height: 1.1em;
-    margin: 0px 0 50px 50px; }
+    margin: 0px 30px 50px 50px; }
   .home .section-02 .services:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
@@ -197,28 +342,30 @@ header .mob-header {
     display: flex;
     flex-direction: row; }
     .home .section-02 .two-column .left-side {
-      width: 9%; }
+      width: 50px; }
       .home .section-02 .two-column .left-side img {
         max-width: 100%; }
     .home .section-02 .two-column .right-side {
-      width: 100%; }
+      width: 81%; }
   .home .section-02 .service {
     text-align: left;
     font-family: HeavyDisp;
     font-size: 1.4em;
     color: #252d4b;
     line-height: 1.1em;
-    margin: 5px 0 10px 50px; }
+    margin: 5px 30px 10px 50px; }
   .home .section-02 .descr-text {
     text-align: left;
     font-family: RomanBody;
     font-size: 0.9em;
-    color: #252d4b;
+    color: #5e5e5e;
     line-height: 1.3em; }
 
 .home .section-03 {
   margin: 0px 0; }
   .home .section-03 .one-column {
+    max-width: 1260px;
+    margin: auto;
     padding: 30px 20px; }
   .home .section-03 .why {
     text-align: left;
@@ -226,7 +373,7 @@ header .mob-header {
     font-size: 1.4em;
     color: #252d4b;
     line-height: 1.1em;
-    margin: 0px 0 30px 50px; }
+    margin: 0px 30px 30px 50px; }
   .home .section-03 .why:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
@@ -244,7 +391,7 @@ header .mob-header {
     font-size: 3.5em;
     color: #252d4b;
     line-height: 1.1em;
-    margin: 15px 0 0 50px; }
+    margin: 15px 30px 0 50px; }
     .home .section-03 .large-why span {
       font-size: 0.8em; }
   .home .section-03 .large-award {
@@ -253,22 +400,24 @@ header .mob-header {
     font-size: 2.7em;
     color: #252d4b;
     line-height: 1em;
-    margin: 35px 0 20px 50px; }
+    margin: 35px 30px 20px 50px; }
   .home .section-03 .why-descr-text {
     text-align: left;
     font-family: RomanBody;
     font-size: 1.2em;
-    color: #252d4b;
+    color: #5e5e5e;
     line-height: 1.5em;
-    margin: 0 0 10px 50px; }
+    margin: 0 30px 10px 50px; }
   .home .section-03 .button-container {
-    margin: 30px 0 0 50px; }
+    margin: 30px 30px 0 50px; }
     .home .section-03 .button-container .work-button {
       max-width: 70%; }
 
 .home .section-04 {
   margin: 0px 0; }
   .home .section-04 .one-column {
+    max-width: 1260px;
+    margin: auto;
     padding: 30px 20px; }
   .home .section-04 .large-before {
     text-align: left;
@@ -276,7 +425,7 @@ header .mob-header {
     font-size: 2.7em;
     color: #252d4b;
     line-height: 1em;
-    margin: -180px 0 20px 50px;
+    margin: -180px 30px 20px 50px;
     position: relative; }
   .home .section-04 .large-after {
     text-align: left;
@@ -284,7 +433,7 @@ header .mob-header {
     font-size: 2.7em;
     color: #252d4b;
     line-height: 1em;
-    margin: 35px 0 20px 50px;
+    margin: 35px 30px 20px 50px;
     position: relative; }
   .home .section-04 .large-and {
     text-align: center;
@@ -298,14 +447,14 @@ header .mob-header {
     text-align: left;
     font-family: RomanBody;
     font-size: 1.2em;
-    color: #252d4b;
+    color: #5e5e5e;
     line-height: 1.5em;
     margin: 0 0 10px 50px; }
   .home .section-04 .two-column {
     display: flex;
     flex-direction: row; }
     .home .section-04 .two-column .left-side {
-      width: 50%; }
+      width: 40%; }
       .home .section-04 .two-column .left-side .image-container {
         margin: 30px 0 0 -20px; }
         .home .section-04 .two-column .left-side .image-container .before-work {
@@ -321,13 +470,15 @@ header .mob-header {
         .home .section-04 .two-column .right-side .image-container .after-work {
           max-width: 100%; }
   .home .section-04 .button-container {
-    margin: 30px 0 0 50px; }
+    margin: 30px 30px 0 50px; }
     .home .section-04 .button-container .work-button {
       max-width: 70%; }
 
 .home .section-05 {
   margin: 0px 0; }
   .home .section-05 .one-column {
+    max-width: 1260px;
+    margin: auto;
     padding: 30px 20px; }
   .home .section-05 .testimonial {
     text-align: left;
@@ -335,7 +486,8 @@ header .mob-header {
     font-size: 1.4em;
     color: #252d4b;
     line-height: 1.1em;
-    margin: 0px 0 30px 50px; }
+    margin: 0px 30px -60px 50px;
+    position: relative; }
   .home .section-05 .testimonial:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
@@ -348,23 +500,132 @@ header .mob-header {
     border-bottom: 1px solid #252d4b;
     /* This creates the border. Replace black with whatever color you want. */ }
   .home .section-05 .large-quote {
-    text-align: center;
-    font-family: HeavyDisp;
+    text-align: left;
+    font-family: MediumBody;
     font-size: 17em;
     color: #eff0f1;
     line-height: 1em;
-    margin: 0 0 0 -50px;
-    position: relative; }
-  .home .section-05 .test-descr-text {
+    margin: 0 0 -160px -50px; }
+  .home .section-05 .quotes {
+    margin: 0 100px 0 50px; }
+    .home .section-05 .quotes .test-descr-text {
+      text-align: left;
+      font-family: RomanBody;
+      font-size: 0.9em;
+      color: #5e5e5e;
+      line-height: 1.3em; }
+    .home .section-05 .quotes .two-column {
+      display: flex;
+      flex-direction: row; }
+      .home .section-05 .quotes .two-column .left-side {
+        width: 20%; }
+        .home .section-05 .quotes .two-column .left-side img {
+          max-width: 100%; }
+      .home .section-05 .quotes .two-column .right-side {
+        width: 100%; }
+        .home .section-05 .quotes .two-column .right-side .descr-text {
+          text-align: left;
+          font-family: RomanBody;
+          font-size: 0.9em;
+          color: #5e5e5e;
+          line-height: 1.3em; }
+        .home .section-05 .quotes .two-column .right-side .stars {
+          margin: -15px 0 0 0; }
+  .home .section-05 .pagination {
+    text-align: center; }
+
+.home .section-06 {
+  margin: 0px 0; }
+  .home .section-06 .one-column {
+    max-width: 1260px;
+    margin: auto;
+    padding: 30px 20px; }
+  .home .section-06 .contact {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 0px 30px 30px 50px; }
+  .home .section-06 .contact:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 180px;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #252d4b;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-06 .large-contact {
+    text-align: left;
+    font-family: BoldDisp;
+    font-size: 2.7em;
+    color: #252d4b;
+    line-height: 1em;
+    margin: 35px 30px 20px 50px; }
+  .home .section-06 .contact-descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: .9em;
+    color: #3a5dfb;
+    line-height: 1.5em;
+    margin: 0 30px 10px 50px; }
+  .home .section-06 .entered {
     text-align: left;
     font-family: RomanBody;
     font-size: 1.2em;
-    color: #252d4b;
-    line-height: 1.5em;
-    margin: 0 0 10px 50px; }
-  .home .section-05 .button-container {
-    margin: 30px 0 0 50px; }
-    .home .section-05 .button-container .work-button {
+    color: #3a5dfb;
+    line-height: 1.1em;
+    margin: 0px 30px 30px 50px; }
+  .home .section-06 .entered:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 95%;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #bfc2ce;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-06 .entry {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 1.2em;
+    color: #bfc2ce;
+    line-height: 1.1em;
+    margin: 40px 30px 30px 50px; }
+    @media screen and (max-width: 600px) {
+      .home .section-06 .entry {
+        font-size: 1em; } }
+    @media screen and (max-width: 550px) {
+      .home .section-06 .entry {
+        font-size: .8em; } }
+    @media screen and (max-width: 485px) {
+      .home .section-06 .entry {
+        font-size: .7em; } }
+    @media screen and (max-width: 435px) {
+      .home .section-06 .entry {
+        font-size: .6em; } }
+  .home .section-06 .entry:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 95%;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #bfc2ce;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-06 .arrow {
+    margin: 0 0 0 8vw; }
+  .home .section-06 .button-container {
+    text-align: center;
+    margin: 50px auto -50px; }
+    .home .section-06 .button-container .work-button {
       max-width: 70%; }
 
 footer .flex {
