@@ -38,6 +38,13 @@
                         <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-downcarrot.png" alt="">
                     </div>
                 </a>
+                <!-- <div class="hoverBox clientsBox" style="display: none;">
+                    <ul>
+                        <li><a href="#">Client 1</a></li>
+                        <li><a href="#">Client 2</a></li>
+                        
+                    </ul>
+                </div> -->
                 <a href="#" class="navLink">
                     <div class="navContainer flex">
                         <p>Contact</p>
