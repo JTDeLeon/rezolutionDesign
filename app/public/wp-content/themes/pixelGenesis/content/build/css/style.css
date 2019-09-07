@@ -370,7 +370,7 @@ header .mob-header {
 
 .home .section-02 {
   margin: 70px 0 0; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .home .section-02 {
       display: none; } }
   .home .section-02 .one-column {
@@ -431,7 +431,7 @@ header .mob-header {
 
 .home .section-03-mobile {
   margin: 0px 0; }
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     .home .section-03-mobile {
       display: none; } }
   .home .section-03-mobile .one-column {
@@ -550,7 +550,7 @@ header .mob-header {
 
 .home .section-04-mobile {
   margin: 0px 0; }
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     .home .section-04-mobile {
       display: none; } }
   .home .section-04-mobile .one-column {
@@ -674,7 +674,7 @@ header .mob-header {
 
 .home .section-05-mobile {
   margin: 0px 0; }
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     .home .section-05-mobile {
       display: none; } }
   .home .section-05-mobile .one-column {
@@ -804,7 +804,7 @@ header .mob-header {
 
 .home .section-06-mobile {
   margin: 0px 0; }
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     .home .section-06-mobile {
       display: none; } }
   .home .section-06-mobile .one-column {
