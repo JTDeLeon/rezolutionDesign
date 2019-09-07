@@ -131,12 +131,13 @@ header .mob-header {
   @media screen and (min-width: 768px) {
     .home .section-00 .one-column {
       background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
-      background-position-y: 2vw; } }
+      background-position-x: 300px;
+      background-position-y: 40px; } }
   @media screen and (min-width: 1024px) {
     .home .section-00 .one-column {
       background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
-      background-position-x: 19vw;
-      background-position-y: 2vw; } }
+      background-position-x: 320px;
+      background-position-y: 30px; } }
 
 .home .section-00 .headline {
   font-family: HeavyDisp;
@@ -182,61 +183,64 @@ header .mob-header {
     display: none; } }
 
 .home .section-00 .circles .circle-1 {
-  margin: -430px 0 0 85%; }
+  margin: -430px 0 0 1020px;
+  text-align: left; }
   .home .section-00 .circles .circle-1 .shopper {
     z-index: 100;
     position: absolute;
     max-width: 100%; }
 
 .home .section-00 .circles .wp-container {
-  margin: 190px 40% 0 0;
-  text-align: right; }
+  margin: 220px 0 0 650px;
+  text-align: left; }
   .home .section-00 .circles .wp-container .wordpress {
     z-index: 100;
+    position: absolute;
     max-width: 12%; }
 
 .home .section-00 .circles .circle-2 {
-  margin: -110px 140px 0 0;
-  text-align: right; }
+  margin: -500px 0 0 800px;
+  text-align: left; }
   .home .section-00 .circles .circle-2 .merch {
     z-index: 100;
+    position: absolute;
     max-width: 100%; }
 
 .home .section-00 .circles .circle-3 {
-  margin: -225px 120px 0 0;
-  text-align: right; }
+  margin: 275px 0 0 1080px;
+  text-align: left; }
   .home .section-00 .circles .circle-3 .three-circles {
     z-index: 100;
     position: absolute;
     max-width: 100%; }
 
 .home .section-00 .circles .s-container {
-  margin: 0 0 0 0;
-  text-align: center; }
+  margin: 460px 0 0 560px;
+  text-align: left; }
   .home .section-00 .circles .s-container .shopify {
     z-index: 100;
     position: absolute;
     max-width: 100%; }
 
 .home .section-00 .circles .woo-container {
-  margin: 150px 320px 0 0;
-  text-align: center; }
+  margin: 390px 0 0 430px;
+  text-align: left; }
   .home .section-00 .circles .woo-container .woo {
     z-index: 100;
     position: absolute;
     max-width: 100%; }
 
 .home .section-00 .circles .mag-container {
-  margin: 10px 0 0 0;
-  text-align: center; }
+  margin: -530px 0 0 720px;
+  text-align: left; }
   .home .section-00 .circles .mag-container .magento {
     z-index: 100;
     position: absolute;
     max-width: 100%; }
 
 .home .section-00 .circles .circle-4 {
-  margin: 260px 150px 0 0;
-  text-align: right; }
+  margin: -540px 0 0 1060px;
+  text-align: left; }
   .home .section-00 .circles .circle-4 .three-circles {
     z-index: 100;
     position: absolute;
@@ -314,8 +318,61 @@ header .mob-header {
   .home .section-01-mobile .circle-4 .three-circles {
     max-width: 25%; }
 
+.home .section-02-mobile {
+  margin: 70px 0 0; }
+  @media screen and (min-width: 767px) {
+    .home .section-02-mobile {
+      display: none; } }
+  .home .section-02-mobile .one-column {
+    max-width: 1260px;
+    margin: auto;
+    padding: 30px 20px; }
+  .home .section-02-mobile .services {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 0px 30px 50px 50px; }
+  .home .section-02-mobile .services:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 180px;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #252d4b;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-02-mobile .two-column {
+    display: flex;
+    flex-direction: row; }
+    .home .section-02-mobile .two-column .left-side {
+      width: 50px; }
+      .home .section-02-mobile .two-column .left-side img {
+        max-width: 100%; }
+    .home .section-02-mobile .two-column .right-side {
+      width: 81%; }
+  .home .section-02-mobile .service {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 5px 30px 10px 50px; }
+  .home .section-02-mobile .descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 0.9em;
+    color: #5e5e5e;
+    line-height: 1.3em; }
+
 .home .section-02 {
   margin: 70px 0 0; }
+  @media screen and (max-width: 767px) {
+    .home .section-02 {
+      display: none; } }
   .home .section-02 .one-column {
     max-width: 1260px;
     margin: auto;
@@ -342,18 +399,28 @@ header .mob-header {
     display: flex;
     flex-direction: row; }
     .home .section-02 .two-column .left-side {
-      width: 50px; }
+      width: 50%; }
       .home .section-02 .two-column .left-side img {
         max-width: 100%; }
     .home .section-02 .two-column .right-side {
-      width: 81%; }
+      width: 100%; }
+  .home .section-02 .two-column-a {
+    display: flex;
+    flex-direction: row; }
+    .home .section-02 .two-column-a .left-side-a {
+      width: 60px; }
+      .home .section-02 .two-column-a .left-side-a img {
+        max-width: 100%; }
+    .home .section-02 .two-column-a .right-side-a {
+      width: 100%;
+      padding: 0 60px 0 0; }
   .home .section-02 .service {
     text-align: left;
     font-family: HeavyDisp;
     font-size: 1.4em;
     color: #252d4b;
     line-height: 1.1em;
-    margin: 5px 30px 10px 50px; }
+    margin: 5px 30px 10px 0; }
   .home .section-02 .descr-text {
     text-align: left;
     font-family: RomanBody;
@@ -361,12 +428,79 @@ header .mob-header {
     color: #5e5e5e;
     line-height: 1.3em; }
 
+.home .section-03-mobile {
+  margin: 0px 0; }
+  @media screen and (min-width: 767px) {
+    .home .section-03-mobile {
+      display: none; } }
+  .home .section-03-mobile .one-column {
+    max-width: 1260px;
+    margin: auto;
+    padding: 30px 20px; }
+  .home .section-03-mobile .why {
+    text-align: left;
+    font-family: HeavyDisp;
+    font-size: 1.4em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 0px 30px 30px 50px; }
+  .home .section-03-mobile .why:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    width: 180px;
+    /* Change this to whatever width you want. */
+    padding-top: 15px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #252d4b;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-03-mobile .large-why {
+    text-align: left;
+    font-family: BoldDisp;
+    font-size: 3.5em;
+    color: #252d4b;
+    line-height: 1.1em;
+    margin: 15px 30px 0 50px; }
+    .home .section-03-mobile .large-why span {
+      font-size: 0.8em; }
+  .home .section-03-mobile .large-award {
+    text-align: left;
+    font-family: BoldDisp;
+    font-size: 2.7em;
+    color: #252d4b;
+    line-height: 1em;
+    margin: 35px 30px 20px 50px; }
+  .home .section-03-mobile .why-descr-text {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: 1.2em;
+    color: #5e5e5e;
+    line-height: 1.5em;
+    margin: 0 30px 10px 50px; }
+  .home .section-03-mobile .button-container {
+    margin: 30px 30px 0 50px; }
+    .home .section-03-mobile .button-container .work-button {
+      max-width: 70%; }
+
 .home .section-03 {
   margin: 0px 0; }
+  @media screen and (max-width: 767px) {
+    .home .section-03 {
+      display: none; } }
   .home .section-03 .one-column {
     max-width: 1260px;
     margin: auto;
     padding: 30px 20px; }
+  .home .section-03 .two-column {
+    display: flex;
+    flex-direction: row; }
+    .home .section-03 .two-column .left-side {
+      width: 50%; }
+      .home .section-03 .two-column .left-side img {
+        max-width: 100%; }
+    .home .section-03 .two-column .right-side {
+      width: 50%; }
   .home .section-03 .why {
     text-align: left;
     font-family: HeavyDisp;

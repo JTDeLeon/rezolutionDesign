@@ -192,13 +192,14 @@ header {
             
             @media screen and (min-width: 768px) {
                 background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
-                background-position-y: 2vw;
+                background-position-x: 300px;
+                background-position-y: 40px;
             }
             
             @media screen and (min-width: 1024px) {
                 background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
-                background-position-x: 19vw;
-                background-position-y: 2vw;
+                background-position-x: 320px;
+                background-position-y: 30px;
             }
         }
 
@@ -258,7 +259,8 @@ header {
             }
             
             .circle-1 {
-                margin: -430px 0 0 85%;
+                margin: -430px 0 0 1020px;
+                text-align: left;
 
                 .shopper {
                     z-index: 100;
@@ -268,28 +270,30 @@ header {
             }
 
             .wp-container {
-                margin: 190px 40% 0 0;
-                text-align: right;
+                margin: 220px 0 0 650px;
+                text-align: left;
 
                 .wordpress {
                     z-index: 100;
+                    position: absolute;
                     max-width: 12%;
                 }
             }
 
             .circle-2 {
-                margin: -110px 140px 0 0;
-                text-align: right;
+                margin: -500px 0 0 800px;
+                text-align: left;
 
                 .merch {
                     z-index: 100;
+                    position: absolute;
                     max-width: 100%;
                 }
             }
 
             .circle-3 {
-                margin: -225px 120px 0 0;
-                text-align: right;
+                margin: 275px 0 0 1080px;
+                text-align: left;
 
                 .three-circles {
                     z-index: 100;
@@ -299,8 +303,8 @@ header {
             }
 
             .s-container {
-                margin: 0 0 0 0;
-                text-align: center;
+                margin: 460px 0 0 560px;
+                text-align: left;
 
                 .shopify {
                     z-index: 100;
@@ -310,8 +314,8 @@ header {
             }
 
             .woo-container {
-                margin: 150px 320px 0 0;
-                text-align: center;
+                margin: 390px 0 0 430px;
+                text-align: left;
 
                 .woo {
                     z-index: 100;
@@ -321,8 +325,8 @@ header {
             }
 
             .mag-container {
-                margin: 10px 0 0 0;
-                text-align: center;
+                margin: -530px 0 0 720px;
+                text-align: left;
 
                 .magento {
                     z-index: 100;
@@ -332,8 +336,8 @@ header {
             }
 
             .circle-4 {
-                margin: 260px 150px 0 0;
-                text-align: right;
+                margin: -540px 0 0 1060px;
+                text-align: left;
 
                 .three-circles {
                     z-index: 100;
@@ -344,8 +348,6 @@ header {
         }
         
     }
-    
-    
     
     .section-01-mobile {
         
@@ -454,8 +456,12 @@ header {
         }
     }
     
-    .section-02 {
+    .section-02-mobile {
         margin: 70px 0 0;
+        
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
         
         .one-column{
             max-width: 1260px;
@@ -495,8 +501,6 @@ header {
             .right-side{
                 width: 81%;
             }
-
-            
         }
         
         .service {
@@ -517,13 +521,190 @@ header {
         }
     }
     
-    .section-03 {
-        margin: 0px 0;
+    .section-02 {
+        margin: 70px 0 0;
+        
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
         
         .one-column{
             max-width: 1260px;
             margin: auto;
             padding: 30px 20px;
+        }
+        
+        .services {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 50px 50px;
+        }
+        
+        .services:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 50%;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .right-side {
+                width: 100%;
+            }
+            
+        }
+        
+        .two-column-a {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side-a {
+                width: 60px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+            
+            .right-side-a {
+                width: 100%;
+                padding: 0 60px 0 0;
+            }
+            
+        }
+        
+        .service {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 5px 30px 10px 0;
+        }
+        
+        .descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 0.9em;
+            color: #5e5e5e;
+            line-height: 1.3em;
+        }
+    }
+    
+    .section-03-mobile {
+        margin: 0px 0;
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .why {
+            text-align: left;
+            font-family: HeavyDisp;
+            font-size: 1.4em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 0px 30px 30px 50px;
+        }
+        
+        .why:after {
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            width: 180px; /* Change this to whatever width you want. */
+            padding-top: 15px; /* This creates some space between the element and the border. */
+            border-bottom: 1px solid #252d4b; /* This creates the border. Replace black with whatever color you want. */
+        }
+        
+        
+        .large-why {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 3.5em;
+            color: #252d4b;
+            line-height: 1.1em;
+            margin: 15px 30px 0 50px;
+            
+            span {
+                font-size: 0.8em;
+            }
+        }
+        
+        .large-award {
+            text-align: left;
+            font-family: BoldDisp;
+            font-size: 2.7em;
+            color: #252d4b;
+            line-height: 1em;
+            margin: 35px 30px 20px 50px;
+        }
+        
+        .why-descr-text {
+            text-align: left;
+            font-family: RomanBody;
+            font-size: 1.2em;
+            color: #5e5e5e;
+            line-height: 1.5em;
+            margin: 0 30px 10px 50px;
+        }
+        
+        .button-container {
+                margin: 30px 30px 0 50px;
+
+            .work-button {
+                max-width: 70%;
+                //margin: 20px 0;
+            }
+        }
+    }
+    
+    .section-03 {
+        margin: 0px 0;
+        
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
+        .one-column{
+            max-width: 1260px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            
+            .left-side {
+                width: 50%;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .right-side{
+                width: 50%;
+            }
         }
         
         .why {

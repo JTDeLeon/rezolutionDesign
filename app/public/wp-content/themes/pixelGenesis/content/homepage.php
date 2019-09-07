@@ -69,14 +69,14 @@ wp_head();
             </div>
             
             <div class="circles">
-                <div class="s-container">
-                    <img class="shopify" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-shopify.png">
+                <div class="woo-container">
+                    <img class="woo" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-desktp-woo.png">
                 </div>
             </div>
             
             <div class="circles">
-                <div class="woo-container">
-                    <img class="woo" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-desktp-woo.png">
+                <div class="s-container">
+                    <img class="shopify" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-shopify.png">
                 </div>
             </div>
             
@@ -126,7 +126,7 @@ wp_head();
     </div>
 </section>
                 
-<section class="section-02">
+<section class="section-02-mobile">
     <div class="one-column">
         <p class="services">OUR SERVICES</p>
         
@@ -194,7 +194,98 @@ wp_head();
     </div>
 </section>
                 
-<section class="section-03">
+<section class="section-02">
+    <div class="one-column">
+        
+        <div class="two-column">
+            <div class="left-side">
+                <div class="phone">
+                    <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-dsktp-phone.png" alt="Maintenance" align="middle">
+                </div>
+            
+            </div>
+            
+            <div class="right-side">
+                <p class="services">OUR SERVICES</p>
+        
+                <div class="two-column">
+                    <div class="two-column-a">
+                        <div class="left-side-a">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-web-logo.png" alt="Website Design" align="middle">
+                        </div>
+
+                        <div class="right-side-a">
+                            <p class="service">Website Design</p>
+                            <p class="descr-text">The Digital front door of your business, our team is equipped to make it stand out professionally</p>
+                        </div>                        
+                    </div>
+                    
+                    <div class="two-column-a">
+                        <div class="left-side-a">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-ecom-logo.png" alt="Ecommerce Design" align="middle">
+                        </div>
+
+                        <div class="right-side-a">
+                            <p class="service">Ecommerce Design</p>
+                            <p class="descr-text">Modern digital storefront with responsiveness for desktop and mobile, catered for conversions turning customers to buyers</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two-column">
+                    <div class="two-column-a">
+                        <div class="left-side-a">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-logo-logo.png" alt="Logo Design" align="middle">
+                        </div>
+
+                        <div class="right-side-a">
+                            <p class="service">Logo Design</p>
+                            <p class="descr-text">Rather if its starting from scratch or your business needs a rebrand, the logo is the face of your company</p>
+                        </div>                        
+                    </div>
+                    
+                    <div class="two-column-a">
+                        <div class="left-side-a">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-social-logo.png" alt="Social Media Marketing" align="middle">
+                        </div>
+
+                        <div class="right-side-a">
+                            <p class="service">Social Media Marketing</p>
+                            <p class="descr-text">Gain global exposure to produce brand awareness and lead traffic into your website</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="two-column">
+                    <div class="two-column-a">
+                        <div class="left-side-a">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-maintenance-logo.png" alt="Maintenance" align="middle">
+                        </div>
+
+                        <div class="right-side-a">
+                            <p class="service">Maintenance</p>
+                            <p class="descr-text">Creating backups, finetune updates, add new products, update contents and banners, update pricing</p>
+                        </div>                        
+                    </div>
+                    
+                    <div class="two-column-a">
+                        <div class="left-side-a">
+                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-seo-logo.png" alt="Search Engine Optimization" align="middle">
+                        </div>
+
+                        <div class="right-side-a">
+                            <p class="service">Search Engine Optimization</p>
+                            <p class="descr-text">Top searches are always on Google, we help people find your business faster with SEO services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+                
+<section class="section-03-mobile">
     <div class="one-column">
         <p class="why">WHY US</p>
         
@@ -212,6 +303,35 @@ wp_head();
         
         <div class="button-container">
             <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+        </div>
+    </div>
+</section>
+                
+<section class="section-03">    
+    <div class="one-column">
+        <p class="why">WHY US</p>
+        
+        <div class="two-column">
+            <div class="left-side">
+                <p class="large-why">142</p>
+                <p class="why-descr-text">Website launches currently active for 5+ Years</p>
+
+                <p class="large-why">97<span><sup>%</sup></span></p>
+                <p class="why-descr-text">Client Retention Rate</p>
+
+                <p class="large-why">$200m</p>
+                <p class="why-descr-text">Annual Client GMV</p>
+            </div>
+
+            <div class="right-side">
+                <p class="large-award">Award Winning<br>Designers<br>& Developers</p>
+                <p class="why-descr-text">Our job is to make your business look fantastic. We deliver best practices, global brand exposure with high boost conversions that will change your business.  You're in Experts hands when working with Rezolutions Design.</p>
+
+                <div class="button-container">
+                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
