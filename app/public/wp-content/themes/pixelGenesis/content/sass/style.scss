@@ -68,6 +68,8 @@ header {
             display: flex;
             justify-content: space-between;
             padding: 30px 40px 0;
+            max-width: 1260px;
+            margin: auto;
         
             .left {
                 .logo-container {
@@ -651,8 +653,8 @@ footer {
 
             .inside-footer-container {
                 width: 1500px;
-                margin: 100px 0 auto auto;
-                padding-left: 100px;
+                max-width: 1260px;
+                margin: 100px auto 0 auto;
                 .footer-title {
                     font-family: HeavyDisp;
                     width: 200px;
@@ -663,8 +665,78 @@ footer {
                 }
 
                 .row {
+                    max-width: 1260px;
+                    @media (max-width: 1360px) {
+                        width: 1000px;
+                    }
+                    @media (max-width: 1135px) {
+                        width: 900px;
+                    }
+                    @media (max-width: 1035px) {
+                        width: 800px;
+                    }
+                    @media (max-width: 935px) {
+                        flex-wrap: wrap;
+                        width: 500px;
+                    }
+                    img {
+                        @media (max-width: 935px) {
+                            margin: auto 10px;
+                        }
+                    }
                     .mzeroleft {
                         margin-left: 0;
+                    }
+                }
+
+                .bottom-sect {
+                    margin-top: 100px;
+                    display: flex;
+
+                    .left-sec {
+                        width: 50%;
+                        @media (max-width: 1155px) {
+                            width: 30%;
+                        }
+
+                        .social-bars {
+                            margin-top: 100px;
+                            width: 230px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            margin-left: 0;
+                        }
+                    }
+
+                    .right-sec {
+                        width: 50%;
+                        @media (max-width: 1135px) {
+                            width: 30%;
+                        }
+
+                        .menuNavContainer {
+                            display: flex;
+                            div {
+                                display: flex;
+                                flex-direction: column;
+                                margin-left: 0;
+
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-family: BookBody;
+                                    line-height: 2;
+                                }
+                            }
+
+                            
+                        }
+
+                        .addr {
+                            margin-top: 100px;
+                            font-family: BookBody;
+                            color: white;
+                        }
                     }
                 }
             }

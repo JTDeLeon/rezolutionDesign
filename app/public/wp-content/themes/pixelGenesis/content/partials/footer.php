@@ -59,7 +59,7 @@
             </div>
 
             <div class="bottom-sect">
-                <div class="left">
+                <div class="left-sec">
                     <img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-rezolutionLogo.png" alt="" class="rezolution-logo">
                     <div class="social-bars">
                         <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-fb.png" alt=""></a>
@@ -68,17 +68,17 @@
                         <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-insta.png" alt=""></a>
                     </div>
                 </div>
-                <div class="right">
+                <div class="right-sec">
                     <div class="menuNavContainer">
                         <div class="left mauto">
-                            <a>Why Us</a>
-                            <a>Case Studies</a>
-                            <a>Schedule a call</a>
+                            <a href="#">Why Us</a>
+                            <a href="#">Case Studies</a>
+                            <a href="#">Schedule a call</a>
                         </div>
                         <div class="right mauto">
-                            <a>Terms of Use</a>
-                            <a>Cookies Policy</a>
-                            <a>Privacy Policy</a>
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Cookies Policy</a>
+                            <a href="#">Privacy Policy</a>
                         </div>
                     </div>
                     <p class="addr">18851 NE 29th Avenue —  Suite 700 / Aventura FL 33180</p>
