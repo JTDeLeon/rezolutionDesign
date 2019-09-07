@@ -80,6 +80,17 @@ header .mob-header {
             margin: auto; }
       header .desk-header .left .menu-bar .navLink:hover {
         background: #0f1c5d; }
+      header .desk-header .left .menu-bar .hoverBox {
+        position: absolute;
+        background: white;
+        margin-top: 60px;
+        padding: 15px 30px; }
+        header .desk-header .left .menu-bar .hoverBox li a {
+          color: 3f497d;
+          text-decoration: none;
+          font-family: BookBody; }
+        header .desk-header .left .menu-bar .hoverBox li:hover {
+          text-decoration: underline; }
     header .desk-header .right {
       width: 40%; }
       header .desk-header .right .header-social {

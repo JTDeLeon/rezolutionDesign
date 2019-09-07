@@ -16,13 +16,23 @@
             </a>
 
             <div class="menu-bar flex">
-                <a href="#" class="navLink">
+                <a href="#" class="navLink hover-box servicesNav">
                     <div class="navContainer flex">
                         <p>Services</p>
                         <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-downcarrot.png" alt="">
                     </div>
                 </a>
-                <a href="#" class="navLink">
+                <div class="hoverBox serviceBox" style="display: none;">
+                    <ul>
+                        <li><a href="#">Website Design</a></li>
+                        <li><a href="#">Ecommerce Design</a></li>
+                        <li><a href="#">Logo Design</a></li>
+                        <li><a href="#">Social Media Networking</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                        <li><a href="#">Search Engine Optimization</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="navLink hover-box clientsNav">
                     <div class="navContainer flex">
                         <p>Clients</p>
                         <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-downcarrot.png" alt="">
