@@ -28,6 +28,7 @@ wp_head();
 <body class="home" >
     <div id="page" class="hfeed site">
         <div id="content" class="site-content" tabindex="-1">
+            <?php include 'partials/mobile-overlay.php' ?>
             <div class="col-full">
 
 <!-- Begin Page Build Below -->

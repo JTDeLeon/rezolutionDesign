@@ -1,4 +1,5 @@
 <header>
+    
     <!-- Mobile Version of Header -->
     <div class="mob-header">
         <a href="#">
@@ -7,6 +8,7 @@
         <div class="flex">
             <img class="mauto hamburger" src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-mobile-hamburger.png" alt="">
         </div>
+        
     </div>
     <!-- Desktop Version of Header -->
     <div class="desk-header">
