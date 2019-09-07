@@ -4,9 +4,11 @@ console.log('js is properly set');
 // Desktop Hover Boxes in Nav Header
 document.querySelectorAll('.hover-box').forEach((item)=>{
     item.addEventListener('mouseover',(e, target)=>{
-        document.querySelectorAll('.hoverBox').forEach((item)=>{
-            item.style.display = 'none';
-        }))
+        if(document.querySelectorAll('.hoverBox').style){
+            document.querySelectorAll('.hoverBox').forEach((item)=>{
+                item.style.display = 'none';
+            });
+        }
         var boxClass = figureOutWhichBox(e.fromElement.classList);
         console.log('box class is ', boxClass);
         addHoverBox(boxClass);
