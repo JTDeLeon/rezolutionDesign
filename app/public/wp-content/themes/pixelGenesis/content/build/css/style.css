@@ -501,7 +501,7 @@ header .mob-header {
       .home .section-03 .two-column .left-side img {
         max-width: 100%; }
     .home .section-03 .two-column .right-side {
-      width: 50%; }
+      width: 100%; }
   .home .section-03 .why {
     text-align: left;
     font-family: HeavyDisp;
@@ -523,19 +523,25 @@ header .mob-header {
   .home .section-03 .large-why {
     text-align: left;
     font-family: BoldDisp;
-    font-size: 4.9em;
+    font-size: 4.0em;
     color: #252d4b;
     line-height: 1.1em;
     margin: 15px 30px 0 50px; }
+    @media screen and (min-width: 1100px) {
+      .home .section-03 .large-why {
+        font-size: 4.9em; } }
     .home .section-03 .large-why span {
       font-size: 0.8em; }
   .home .section-03 .large-award {
     text-align: left;
     font-family: BoldDisp;
-    font-size: 3.7em;
+    font-size: 3.0em;
     color: #252d4b;
     line-height: 1em;
     margin: 35px 30px 20px 50px; }
+    @media screen and (min-width: 1100px) {
+      .home .section-03 .large-award {
+        font-size: 3.7em; } }
   .home .section-03 .why-descr-text {
     text-align: left;
     font-family: RomanBody;
@@ -785,7 +791,7 @@ header .mob-header {
       display: flex;
       flex-direction: row; }
       .home .section-05 .quotes .two-column .left-side {
-        width: 20%;
+        width: 60px;
         margin: 0 10px 0; }
         .home .section-05 .quotes .two-column .left-side img {
           max-width: 100%; }
