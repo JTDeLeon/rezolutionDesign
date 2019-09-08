@@ -150,8 +150,49 @@ header {
 
 
 
+.mobile-overlay {
+    padding: 40px;
+    text-align: center;
 
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
 
+        .leftimg {
+            margin: auto;
+            margin-left: 0;
+        }
+
+        .rightimg {
+            margin: auto;
+            margin-right: 0;
+            cursor: pointer;
+        }
+    }
+
+    .mainNavLink {
+        font-size: 30px;
+        font-family: HeavyDisp;
+        text-decoration: none;
+        color: #252d4b;
+    }
+    .topNav {
+        border-bottom: 1px solid #252d4b;
+        padding-bottom: 20px;
+    }
+
+    .serviceListMob {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        li a {
+            color: #0f1c5d;
+            text-decoration: none;
+            font-family: BookBody;
+            font-size: 30px;
+        }
+    }
+}
 
 
 
@@ -1386,6 +1427,8 @@ header {
     
     
 }
+
+
 
 
 

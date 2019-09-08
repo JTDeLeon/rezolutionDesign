@@ -101,6 +101,37 @@ header .mob-header {
       header .desk-header .right .bookLink {
         margin: auto; } }
 
+.mobile-overlay {
+  padding: 40px;
+  text-align: center; }
+  .mobile-overlay .topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px; }
+    .mobile-overlay .topbar .leftimg {
+      margin: auto;
+      margin-left: 0; }
+    .mobile-overlay .topbar .rightimg {
+      margin: auto;
+      margin-right: 0;
+      cursor: pointer; }
+  .mobile-overlay .mainNavLink {
+    font-size: 30px;
+    font-family: HeavyDisp;
+    text-decoration: none;
+    color: #252d4b; }
+  .mobile-overlay .topNav {
+    border-bottom: 1px solid #252d4b;
+    padding-bottom: 20px; }
+  .mobile-overlay .serviceListMob {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .mobile-overlay .serviceListMob li a {
+      color: #0f1c5d;
+      text-decoration: none;
+      font-family: BookBody;
+      font-size: 30px; }
+
 @media screen and (max-width: 767px) {
   .home .section-00 {
     position: relative;

@@ -7,3 +7,10 @@ document.querySelector('.hamburger').addEventListener('click',()=>{
     document.querySelector('.col-full').style.display = 'none';
 
 });
+
+document.querySelector('.closebtn').addEventListener('click',()=>{
+    document.querySelector('.mobile-overlay').style.display = 'none';
+    //Hides the page
+    document.querySelector('.col-full').style.display = 'block';
+
+});
