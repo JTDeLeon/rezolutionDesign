@@ -20,3 +20,12 @@
  * components immediately.
  */
 require_once dirname( __FILE__ ) . '/lib/init.php';
+
+
+//Function to add Meta Tags in Header without Plugin
+function add_meta_tags() {
+    ?>
+     <meta content=“width=device-width, initial-scale=1” name=“viewport” />
+    <?php }
+    add_action('wp_head', 'add_meta_tags');
+    
