@@ -41,54 +41,54 @@ wp_head();
             <p class="headline">Web Designs, <br class="brkpt">Ecommerce, <br>Maintenance & SEO</p>
             <p class="headline-descr">If your website isn't optimized for your unique business requirements, you're leaving money on the table.</p>
             <div class="button-container">
-                <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
+                <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
             </div>
             
             <div class="circles">
                 <div class="circle-1">
-                    <img class="shopper" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-shopper.png">
+                    <img class="shopper" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-shopper.png">
                 </div>
             </div>
             
             <div class="circles">
                 <div class="wp-container">
-                    <img class="wordpress" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-wordpress.png">
+                    <img class="wordpress" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-wordpress.png">
                 </div>
             </div>
             
             <div class="circles">
                 <div class="circle-2">
-                    <img class="merch" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-merch.png">
+                    <img class="merch" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-merch.png">
                 </div>
             </div>
             
             <div class="circles">
                 <div class="circle-3">
-                    <img class="three-circles" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-three-dots.png">
+                    <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-three-dots.png">
                 </div>
             </div>
             
             <div class="circles">
                 <div class="woo-container">
-                    <img class="woo" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-desktp-woo.png">
+                    <img class="woo" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-desktp-woo.png">
                 </div>
             </div>
             
             <div class="circles">
                 <div class="s-container">
-                    <img class="shopify" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-shopify.png">
+                    <img class="shopify" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-shopify.png">
                 </div>
             </div>
             
             <div class="circles">
                 <div class="mag-container">
-                    <img class="magento" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-magento.png">
+                    <img class="magento" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-magento.png">
                 </div>
             </div>
             
             <div class="circles">
                 <div class="circle-4">
-                    <img class="three-circles" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-iPad.png">
+                    <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-iPad.png">
                 </div>
             </div>
             
@@ -100,28 +100,28 @@ wp_head();
 <section class="section-01-mobile">
     <div class="one-column">
         <div class="circle-1">
-            <img class="shopper" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-shopper.png">
+            <img class="shopper" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-shopper.png">
         </div>
         <div class="wp-container">
-            <img class="wordpress" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-wordpress.png">
+            <img class="wordpress" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-wordpress.png">
         </div>
         <div class="circle-2">
-            <img class="merch" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-merch.png">
+            <img class="merch" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-merch.png">
         </div>
         <div class="circle-3">
-            <img class="three-circles" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-three-dots.png">
+            <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-three-dots.png">
         </div>
         <div class="s-container">
-            <img class="shopify" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-shopify.png">
+            <img class="shopify" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-shopify.png">
         </div>
         <div class="woo-container">
-            <img class="woo" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-woo.png">
+            <img class="woo" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-woo.png">
         </div>
         <div class="mag-container">
-            <img class="magento" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-magento.png">
+            <img class="magento" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-magento.png">
         </div>
         <div class="circle-4">
-            <img class="three-circles" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-iPad.png">
+            <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-iPad.png">
         </div>
     </div>
 </section>
@@ -134,7 +134,7 @@ wp_head();
         
         <div class="two-column">
             <div class="left-side">
-                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-web-logo.png" alt="Website Design" align="middle">
+                <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-web-logo.png" alt="Website Design" align="middle">
             </div>
             
             <div class="right-side">
@@ -145,7 +145,7 @@ wp_head();
         <p class="service">Logo Design</p>
         <div class="two-column">
             <div class="left-side">
-                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-logo-logo.png" alt="Logo Design" align="middle">
+                <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-logo-logo.png" alt="Logo Design" align="middle">
             </div>
             <div class="right-side">
                 <p class="descr-text">Rather if its starting from scratch or your business needs a rebrand, the logo is the face of your company</p>
@@ -155,7 +155,7 @@ wp_head();
         <p class="service">Maintenance</p>
         <div class="two-column">
             <div class="left-side">
-                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-maintenance-logo.png" alt="Maintenance" align="middle">
+                <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-maintenance-logo.png" alt="Maintenance" align="middle">
             </div>
             <div class="right-side">
                 <p class="descr-text">Creating backups, finetune updates, add new products, update contents and banners, update pricing</p>
@@ -165,7 +165,7 @@ wp_head();
         <p class="service">Ecommerce Design</p>
         <div class="two-column">
             <div class="left-side">
-                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-ecom-logo.png" alt="Ecommerce Design" align="middle">
+                <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-ecom-logo.png" alt="Ecommerce Design" align="middle">
             </div>
             <div class="right-side">
                 <p class="descr-text">Modern digital storefront with responsiveness for desktop and mobile, catered for conversions turning customers to buyers</p>
@@ -175,7 +175,7 @@ wp_head();
         <p class="service">Social Media Marketing</p>
         <div class="two-column">
             <div class="left-side">
-                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-social-logo.png" alt="Social Media Marketing" align="middle">
+                <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-social-logo.png" alt="Social Media Marketing" align="middle">
             </div>
             <div class="right-side">
                 <p class="descr-text">Gain global exposure to produce brand awareness and lead traffic into your website</p>
@@ -185,7 +185,7 @@ wp_head();
         <p class="service">Search Engine Optimization</p>
         <div class="two-column">
             <div class="left-side">
-                <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-seo-logo.png" alt="Search Engine Optimization" align="middle">
+                <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-seo-logo.png" alt="Search Engine Optimization" align="middle">
             </div>
             <div class="right-side">
                 <p class="descr-text">Top searches are always on Google, we help people find your business faster with SEO services</p>
@@ -200,7 +200,7 @@ wp_head();
         <div class="two-column">
             <div class="left-side">
                 <div class="phone">
-                    <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-dsktp-phone.png" alt="Maintenance" align="middle">
+                    <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-dsktp-phone.png" alt="Maintenance" align="middle">
                 </div>
             
             </div>
@@ -211,7 +211,7 @@ wp_head();
                 <div class="two-column">
                     <div class="two-column-a">
                         <div class="left-side-a">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-web-logo.png" alt="Website Design" align="middle">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-web-logo.png" alt="Website Design" align="middle">
                         </div>
 
                         <div class="right-side-a">
@@ -222,7 +222,7 @@ wp_head();
                     
                     <div class="two-column-a">
                         <div class="left-side-a">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-ecom-logo.png" alt="Ecommerce Design" align="middle">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-ecom-logo.png" alt="Ecommerce Design" align="middle">
                         </div>
 
                         <div class="right-side-a">
@@ -235,7 +235,7 @@ wp_head();
                 <div class="two-column">
                     <div class="two-column-a">
                         <div class="left-side-a">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-logo-logo.png" alt="Logo Design" align="middle">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-logo-logo.png" alt="Logo Design" align="middle">
                         </div>
 
                         <div class="right-side-a">
@@ -246,7 +246,7 @@ wp_head();
                     
                     <div class="two-column-a">
                         <div class="left-side-a">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-social-logo.png" alt="Social Media Marketing" align="middle">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-social-logo.png" alt="Social Media Marketing" align="middle">
                         </div>
 
                         <div class="right-side-a">
@@ -259,7 +259,7 @@ wp_head();
                 <div class="two-column">
                     <div class="two-column-a">
                         <div class="left-side-a">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-maintenance-logo.png" alt="Maintenance" align="middle">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-maintenance-logo.png" alt="Maintenance" align="middle">
                         </div>
 
                         <div class="right-side-a">
@@ -270,7 +270,7 @@ wp_head();
                     
                     <div class="two-column-a">
                         <div class="left-side-a">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-seo-logo.png" alt="Search Engine Optimization" align="middle">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-seo-logo.png" alt="Search Engine Optimization" align="middle">
                         </div>
 
                         <div class="right-side-a">
@@ -302,7 +302,7 @@ wp_head();
         <p class="why-descr-text">Our job is to make your business look fantastic. We deliver best practices, global brand exposure with high boost conversions that will change your business.  You're in Experts hands when working with Rezolutions Design.</p>
         
         <div class="button-container">
-            <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+            <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
         </div>
     </div>
 </section>
@@ -328,7 +328,7 @@ wp_head();
                 <p class="why-descr-text">Our job is to make your business look fantastic. We deliver best practices, global brand exposure with high boost conversions that will change your business.  You're in Experts hands when working with Rezolutions Design.</p>
 
                 <div class="button-container">
-                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
                 </div>
 
             </div>
@@ -345,7 +345,7 @@ wp_head();
         <div class="two-column">
             <div class="left-side">
                 <div class="image-container">
-                    <img class="before-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-before.png">
+                    <img class="before-work" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-before.png">
                 </div>
             </div>
             
@@ -353,10 +353,10 @@ wp_head();
                 <p class="large-after">After<br>Case Studies</p>
                 <p class="before-descr-text">We help Reputable businesses with old websites and polish it into stunning presentations for desktop and mobile.</p>
                 <div class="button-container">
-                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
+                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
                 </div>
                 <div class="image-container">
-                    <img class="after-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-after.png">
+                    <img class="after-work" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-after.png">
                 </div>
             </div>
         </div>
@@ -372,7 +372,7 @@ wp_head();
                 <p class="large-before">Before</p>
                 
                 <div class="image-container">
-                    <img class="before-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-dsktp-before.png">
+                    <img class="before-work" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-dsktp-before.png">
                 </div>
             </div>
             
@@ -380,10 +380,10 @@ wp_head();
                 <p class="large-after">After<br>Case Studies</p>
                 <p class="before-descr-text">We help Reputable businesses with old websites and polish it into stunning presentations for desktop and mobile.</p>
                 <div class="button-container">
-                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
+                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
                 </div>
                 <div class="image-container">
-                    <img class="after-work" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-03-dsktp-after.png">
+                    <img class="after-work" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-dsktp-after.png">
                 </div>
             </div>
         </div>
@@ -401,19 +401,19 @@ wp_head();
             
             <div class="two-column">
                 <div class="left-side">
-                    <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                    <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
                 </div>
                 <div class="right-side">
                     <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
                     <div class="stars">
-                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                        <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
                     </div>
                 </div>
             </div>
         </div>
         
         <div class="pagination">
-            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-pagination.png" align="middle">
+            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-pagination.png" align="middle">
         </div>
     </div>
 </section>
@@ -430,12 +430,12 @@ wp_head();
 
                 <div class="two-column">
                     <div class="left-side">
-                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                        <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
                     </div>
                     <div class="right-side">
                         <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
                         <div class="stars">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
                         </div>
                     </div>
                 </div>
@@ -446,12 +446,12 @@ wp_head();
 
                 <div class="two-column">
                     <div class="left-side">
-                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                        <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
                     </div>
                     <div class="right-side">
                         <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
                         <div class="stars">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
                         </div>
                     </div>
                 </div>
@@ -462,12 +462,12 @@ wp_head();
 
                 <div class="two-column">
                     <div class="left-side">
-                        <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
+                        <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-1.png" alt="Luke Black" align="middle">
                     </div>
                     <div class="right-side">
                         <p class="descr-text">Luke Black<br>CEO BlackWorks</p>
                         <div class="stars">
-                            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
+                            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-5-stars.png" alt="Stars" align="left">
                         </div>
                     </div>
                 </div>
@@ -476,7 +476,7 @@ wp_head();
         </div>
         
         <div class="pagination">
-            <img src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-pagination.png" align="middle">
+            <img src="wp-content/themes/pixelGenesis/content/build/image-min/section-05-testimonial-pagination.png" align="middle">
         </div>
     </div>
 </section>
@@ -493,12 +493,12 @@ wp_head();
         
         <p class="entry">Phone</p>
         
-        <p class="entry">What Service(s) are you interested in? <img class="arrow" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
+        <p class="entry">What Service(s) are you interested in? <img class="arrow" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
         
         <p class="entry">How did you find us?</p>
         
         <div class="button-container">
-            <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
+            <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
         </div>
     </div>
 </section>
@@ -520,12 +520,12 @@ wp_head();
 
                 <p class="entry">Phone</p>
 
-                <p class="entry">What Service(s) are you interested in? <img class="arrow" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
+                <p class="entry">What Service(s) are you interested in? <img class="arrow" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
 
                 <p class="entry">How did you find us?</p>
 
                 <div class="button-container">
-                    <img class="work-button" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
+                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
                 </div>
             </div>
         </div>

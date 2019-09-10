@@ -1,8 +1,8 @@
 <!-- Mobile Menu Overlay -->
 <div class="mobile-overlay" style="display: none;">
     <div class="topbar">
-        <img class="leftimg" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/overlay-rez-mob-logo.png">
-        <img class="rightimg closebtn" src="http://rezolution.local/wp-content/themes/pixelGenesis/content/build/image-min/overlay-rez-mob-closebutton.png">
+        <img class="leftimg" src="wp-content/themes/pixelGenesis/content/build/image-min/overlay-rez-mob-logo.png">
+        <img class="rightimg closebtn" src="wp-content/themes/pixelGenesis/content/build/image-min/overlay-rez-mob-closebutton.png">
     </div>
 
     <a class="mainNavLink topNav" href="#">SERVICES</a>
