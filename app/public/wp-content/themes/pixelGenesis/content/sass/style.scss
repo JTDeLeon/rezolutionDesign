@@ -397,7 +397,7 @@ header {
         }
 
         .one-column {
-            max-width: 1260px;
+            max-width: 767px;
             margin: auto;
             padding: 30px 30px 0;
         }
@@ -445,7 +445,8 @@ header {
         }
         
         .circle-3 {
-            margin: -31% -17% 0 58%;
+            margin: -31% 13% 0 37%;
+            text-align: center;
             
             @media screen and (min-width: 641px) {
                 margin: -202px -17% 0 58%;
@@ -457,14 +458,15 @@ header {
         }
         
         .s-container {
-            margin: -26% -60% 0 80%;
+            margin: -26% 0% 0 0%;
+            float: right;
             
             @media screen and (min-width: 641px) {
                 margin: -149px -60% 0 80%;
             }
             
             .shopify {
-                max-width: 15%;
+                max-width: 75%;
             }
         }
         
@@ -485,14 +487,15 @@ header {
         }
         
         .circle-4 {
-            margin: -22% -35% 0 54%;
+            margin: -34% 16% 0 0%;
+            float: right;
             
             @media screen and (min-width: 641px) {
                 margin: -128px -35% 0 49vw;
             }
             
             .three-circles {
-                max-width: 25%;
+                max-width: 65%;
             }
         }
     }
