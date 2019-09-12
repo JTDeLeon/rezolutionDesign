@@ -228,19 +228,33 @@ header {
             background: url(../image-min/section-01-mobile-lg-rez-logo-2.png) center center no-repeat;
             max-width: 1260px;
             margin: -90px auto 0;
-            padding: 100px 40px 0;
+            padding: 100px 40px 80px;
             background-size: 65%;
             
             @media screen and (min-width: 768px) {
-                background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
-                background-position-x: 300px;
-                background-position-y: 40px;
+                background: url(../image-min/section-01-dsktp-lg-rez-logo.png) 320px 30px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-shopper.png) 1060px 155px no-repeat,
+                            url(../image-min/section-01-dsktp-wordpress.png) 690px 375px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-merch.png) 840px 300px no-repeat,
+                            url(../image-min/section-01-mobile-three-dots.png) 1120px 360px no-repeat,
+                            url(../image-min/section-01-desktp-woo.png) 470px 470px no-repeat,
+                            url(../image-min/section-01-dsktp-shopify.png) 600px 540px no-repeat,
+                            url(../image-min/section-01-mobile-magento.png) 760px 510px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-iPad.png) 1100px 500px no-repeat;
+                //background-position-x: 300px;
+                //background-position-y: 40px;
             }
             
             @media screen and (min-width: 1024px) {
-                background: url(../image-min/section-01-dsktp-lg-rez-logo.png) center center no-repeat;
-                background-position-x: 320px;
-                background-position-y: 30px;
+                background: url(../image-min/section-01-dsktp-lg-rez-logo.png) 320px 30px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-shopper.png) 1060px 155px no-repeat,
+                            url(../image-min/section-01-dsktp-wordpress.png) 690px 375px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-merch.png) 840px 300px no-repeat,
+                            url(../image-min/section-01-mobile-three-dots.png) 1120px 360px no-repeat,
+                            url(../image-min/section-01-desktp-woo.png) 470px 470px no-repeat,
+                            url(../image-min/section-01-dsktp-shopify.png) 600px 540px no-repeat,
+                            url(../image-min/section-01-mobile-magento.png) 760px 510px no-repeat,
+                            url(../image-min/section-01-dsktp-circle-iPad.png) 1100px 500px no-repeat;
             }
         }
 
@@ -293,101 +307,6 @@ header {
                 display: none;
             }
         }
-        
-        .circles {
-            @media screen and (max-width: 767px) {
-                display: none;
-            }
-            
-            .circle-1 {
-                margin: -430px 0 0 1020px;
-                text-align: left;
-
-                .shopper {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 100%;
-                }
-            }
-
-            .wp-container {
-                margin: 220px 0 0 650px;
-                text-align: left;
-
-                .wordpress {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 12%;
-                }
-            }
-
-            .circle-2 {
-                margin: -500px 0 0 800px;
-                text-align: left;
-
-                .merch {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 100%;
-                }
-            }
-
-            .circle-3 {
-                margin: 275px 0 0 1080px;
-                text-align: left;
-
-                .three-circles {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 100%;
-                }
-            }
-
-            .s-container {
-                margin: 460px 0 0 560px;
-                text-align: left;
-
-                .shopify {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 100%;
-                }
-            }
-
-            .woo-container {
-                margin: 390px 0 0 430px;
-                text-align: left;
-
-                .woo {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 100%;
-                }
-            }
-
-            .mag-container {
-                margin: -530px 0 0 720px;
-                text-align: left;
-
-                .magento {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 100%;
-                }
-            }
-
-            .circle-4 {
-                margin: -540px 0 0 1060px;
-                text-align: left;
-
-                .three-circles {
-                    z-index: 100;
-                    position: absolute;
-                    max-width: 100%;
-                }
-            }
-        }
-        
     }
     
     .section-01-mobile {
@@ -403,16 +322,16 @@ header {
         }
         
         .circle-1 {
-            margin: -26% 0 0 50%;
+            margin: -26% 0 0 53%;
             
             @media screen and (min-width: 641px) {
-                margin: -150px 0 0 50%;
+                margin: -150px 0 0 55%;
             }
             
             .shopper {
                 z-index: 100;
                 position: absolute;
-                max-width: 27%;
+                max-width: 30%;
             }
         }
         
@@ -424,7 +343,7 @@ header {
             }
             
             .wordpress {
-                max-width: 12%;
+                max-width: 15%;
             }
         }
         
@@ -432,24 +351,24 @@ header {
             margin: -4% 0 0 10%;
             
             @media screen and (min-width: 641px) {
-                margin: -22px 0 0 10%;
+                margin: -22px 0 0 11%;
             }
             
             .merch {
                 max-width: 48%;
                 
                 @media screen and (min-width: 641px) {
-                    max-width: 53%;
+                    max-width: 65%;
                 }
             }
         }
         
         .circle-3 {
-            margin: -31% 13% 0 37%;
+            margin: -33% 13% 0 37%;
             text-align: center;
             
             @media screen and (min-width: 641px) {
-                margin: -202px -17% 0 58%;
+                margin: -220px 0 0 175px;
             }
             
             .three-circles {
@@ -458,15 +377,15 @@ header {
         }
         
         .s-container {
-            margin: -26% 0% 0 0%;
-            float: right;
+            margin: -26% -14px 0 0;
+            text-align: right;
             
             @media screen and (min-width: 641px) {
-                margin: -149px -60% 0 80%;
+                margin: -160px 0% 0px 0%;
             }
             
             .shopify {
-                max-width: 75%;
+                max-width: 16%;
             }
         }
         
@@ -487,15 +406,15 @@ header {
         }
         
         .circle-4 {
-            margin: -34% 16% 0 0%;
-            float: right;
+            margin: -24% -30px 0 90px;;
+            text-align: center;
             
             @media screen and (min-width: 641px) {
-                margin: -128px -35% 0 49vw;
+                margin: -140px 0 0 180px;
             }
             
             .three-circles {
-                max-width: 65%;
+                max-width: 16%;
             }
         }
     }
@@ -566,7 +485,7 @@ header {
     }
     
     .section-02 {
-        margin: 70px 0 0;
+        margin: 40px 0 0;
         
         @media screen and (max-width: 768px) {
             display: none;
@@ -1438,6 +1357,8 @@ header {
 
 // Global Footer Styles
 footer {
+    overflow: hidden;
+    
     .flex {
         display: flex;
     }
@@ -1450,12 +1371,12 @@ footer {
 
     // Mobile Footer
     .mob-footer {
-        background: url(../image-min/footer-rez-mob-bg.png) center center no-repeat;
+        background: url(../image-min/footer-rez-mob-bg3.png) center center no-repeat;
         display: flex;
         min-height: 1100px;
-        padding: 130px 30px;
+        padding: 130px 30px 0;
         flex-direction: column;
-        max-width: 655px;
+        max-width: 768px;
         margin: auto;
 
         .footer-title {
@@ -1479,6 +1400,7 @@ footer {
         
             img {
                 margin-bottom: 0;
+                padding: 10px 20px;
             }
         }
 
@@ -1516,6 +1438,10 @@ footer {
         .addr {
             color: white;
             font-family: BookBody;
+        }
+        
+        #social-icons-mobile {
+            max-width: 40px;
         }
     }
 

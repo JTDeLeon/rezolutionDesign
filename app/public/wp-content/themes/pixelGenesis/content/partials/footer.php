@@ -34,10 +34,10 @@
         </div>
 
         <div class="socialBar">
-            <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-fb.png" alt=""></a>
-            <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-linkin.png" alt=""></a>
-            <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-twitter.png" alt=""></a>
-            <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-insta.png" alt=""></a>
+            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-fb-2.png" alt=""></a>
+            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-linkin-2.png" alt=""></a>
+            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-twitte-2.png" alt=""></a>
+            <a id="social-icons-mobile" href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-insta-2.png" alt=""></a>
         </div>
 
         <p class="aligncenter addr">18851 NE 29th Avenue —  Suite 700 / Aventura FL 33180</p>

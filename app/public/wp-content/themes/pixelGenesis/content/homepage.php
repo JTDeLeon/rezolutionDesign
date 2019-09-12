@@ -43,57 +43,6 @@ wp_head();
             <div class="button-container">
                 <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
             </div>
-            
-            <div class="circles">
-                <div class="circle-1">
-                    <img class="shopper" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-shopper.png">
-                </div>
-            </div>
-            
-            <div class="circles">
-                <div class="wp-container">
-                    <img class="wordpress" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-wordpress.png">
-                </div>
-            </div>
-            
-            <div class="circles">
-                <div class="circle-2">
-                    <img class="merch" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-merch.png">
-                </div>
-            </div>
-            
-            <div class="circles">
-                <div class="circle-3">
-                    <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-three-dots.png">
-                </div>
-            </div>
-            
-            <div class="circles">
-                <div class="woo-container">
-                    <img class="woo" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-desktp-woo.png">
-                </div>
-            </div>
-            
-            <div class="circles">
-                <div class="s-container">
-                    <img class="shopify" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-shopify.png">
-                </div>
-            </div>
-            
-            <div class="circles">
-                <div class="mag-container">
-                    <img class="magento" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-magento.png">
-                </div>
-            </div>
-            
-            <div class="circles">
-                <div class="circle-4">
-                    <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-dsktp-circle-iPad.png">
-                </div>
-            </div>
-            
-            
-            
         </div>
 </section>
                 
@@ -102,30 +51,37 @@ wp_head();
         <div class="circle-1">
             <img class="shopper" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-shopper.png">
         </div>
+        
         <div class="wp-container">
             <img class="wordpress" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-wordpress.png">
         </div>
+        
         <div class="circle-2">
             <img class="merch" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-merch.png">
         </div>
+        
         <div class="circle-3">
             <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-three-dots.png">
         </div>
+        
         <div class="s-container">
             <img class="shopify" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-shopify.png">
         </div>
+        
         <div class="woo-container">
             <img class="woo" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-woo.png">
         </div>
+        
         <div class="mag-container">
             <img class="magento" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-magento.png">
         </div>
+        
         <div class="circle-4">
             <img class="three-circles" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-circle-iPad.png">
         </div>
     </div>
 </section>
-                
+        
 <section class="section-02-mobile">
     <div class="one-column">
         <p class="services">OUR SERVICES</p>
@@ -531,9 +487,6 @@ wp_head();
         </div>
     </div>
 </section>
-                
-                
-                
 
 
 <?php include 'partials/footer.php' ?>
