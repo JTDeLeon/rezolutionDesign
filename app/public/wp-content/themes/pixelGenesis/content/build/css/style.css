@@ -1007,6 +1007,10 @@ footer {
       footer .mob-footer .row img {
         margin-bottom: 0;
         padding: 10px 20px; }
+        @media (max-width: 550px) {
+          footer .mob-footer .row img {
+            width: 75px;
+            padding: 10px; } }
     footer .mob-footer .rezLogoBottom {
       margin: 70px auto; }
     footer .mob-footer .footerMenu div {

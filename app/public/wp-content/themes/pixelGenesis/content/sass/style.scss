@@ -1401,6 +1401,11 @@ footer {
             img {
                 margin-bottom: 0;
                 padding: 10px 20px;
+
+                @media (max-width: 550px) {
+                    width: 75px;
+                    padding: 10px;
+                }
             }
         }
 
