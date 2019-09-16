@@ -24,6 +24,8 @@ add_action( 'wp_enqueue_scripts', 'customEnqueue' );
 
 wp_head();
  ?>
+
+<?php include 'partials/page-widgets.php' ?>
  
 <body class="home" >
     <div id="page" class="hfeed site">
@@ -41,7 +43,7 @@ wp_head();
             <p class="headline">Web Designs, <br class="brkpt">Ecommerce, <br>Maintenance & SEO</p>
             <p class="headline-descr">If your website isn't optimized for your unique business requirements, you're leaving money on the table.</p>
             <div class="button-container">
-                <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
+                <img onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
             </div>
         </div>
 </section>
@@ -258,7 +260,7 @@ wp_head();
         <p class="why-descr-text">Our job is to make your business look fantastic. We deliver best practices, global brand exposure with high boost conversions that will change your business.  You're in Experts hands when working with Rezolutions Design.</p>
         
         <div class="button-container">
-            <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+            <img onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
         </div>
     </div>
 </section>
@@ -284,7 +286,7 @@ wp_head();
                 <p class="why-descr-text">Our job is to make your business look fantastic. We deliver best practices, global brand exposure with high boost conversions that will change your business.  You're in Experts hands when working with Rezolutions Design.</p>
 
                 <div class="button-container">
-                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
+                    <img onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-02-mobile-chat-button.png">
                 </div>
 
             </div>
@@ -309,7 +311,7 @@ wp_head();
                 <p class="large-after">After<br>Case Studies</p>
                 <p class="before-descr-text">We help Reputable businesses with old websites and polish it into stunning presentations for desktop and mobile.</p>
                 <div class="button-container">
-                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
+                    <img onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
                 </div>
                 <div class="image-container">
                     <img class="after-work" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-after.png">
@@ -336,7 +338,7 @@ wp_head();
                 <p class="large-after">After<br>Case Studies</p>
                 <p class="before-descr-text">We help Reputable businesses with old websites and polish it into stunning presentations for desktop and mobile.</p>
                 <div class="button-container">
-                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
+                    <img onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-mobile-discuss-button.png">
                 </div>
                 <div class="image-container">
                     <img class="after-work" src="wp-content/themes/pixelGenesis/content/build/image-min/section-03-dsktp-after.png">

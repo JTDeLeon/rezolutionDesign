@@ -63,7 +63,7 @@
                 <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-fb.png" alt="" class="socialIcon"></a>
             </div>
 
-            <a class="bookLink" href="#">
+            <a class="bookLink"  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" href="#">
                 <img src="wp-content/themes/pixelGenesis/content/build/image-min/header-rez-desk-bookacall.png" alt="" class="book">
             </a>
 
