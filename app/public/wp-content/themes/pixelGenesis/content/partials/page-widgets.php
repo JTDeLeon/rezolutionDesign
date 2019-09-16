@@ -4,6 +4,6 @@
 
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;">Schedule time with me</a>
+<!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;">Schedule time with me</a> -->
 
 <!-- Calendly link widget end -->

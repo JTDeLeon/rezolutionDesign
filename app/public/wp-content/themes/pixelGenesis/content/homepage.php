@@ -471,6 +471,35 @@ wp_head();
             </div>
 
             <div class="right-side">
+
+                <!-- Form -->
+                    <form action="./contact" method="post">
+                        <div class="elem-group">
+                            <input type="text" id="name" name="visitor_name" placeholder="Your Name" pattern=[A-Z\sa-z]{3,20} required>
+                        </div>
+                        <div class="elem-group">
+                            <input type="email" id="email" name="visitor_email" placeholder="Email Address" required>
+                        </div>
+                        <div class="elem-group">
+                            <input type="phone" id="phone" name="visitor_phone" placeholder="Phone" required>
+                        </div>
+                        <div class="elem-group">
+                            <select id="services-selection" name="concerned_service" required>
+                                <option value="">What Service(s) are you interested in?</option>
+                                <option value="web-design">Website Design</option>
+                                <option value="ecom-design">Ecommerce Design</option>
+                                <option value="logo-design">Logo Design</option>
+                                <option value="social-media">Social Media Networking</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="seo">Search Engine Optimization</option>
+                            </select>
+                        </div>
+                        <div class="elem-group">
+                            <input type="foundus" id="foundus" name="visitor_foundus" placeholder="How did you find us?" required>
+                        </div>
+                        <button type="submit"><img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png"></button>
+                    </form>
+                <!-- Place Holder -->
                 <p class="contact-descr-text">Your Name</p>
                 <p class="entered">Cosmin Neagu</p>
 
