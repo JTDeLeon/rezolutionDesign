@@ -12,7 +12,7 @@
 <?php 
 function customEnqueue() {
   $build_dir = '/content/build';
-  wp_enqueue_style( 'customWideStyles', get_stylesheet_directory_uri() . $build_dir . '/css/style.min.css', array(), '20190402' );
+  wp_enqueue_style( 'customWideStyles', get_stylesheet_directory_uri() . $build_dir . '/css/style.min.css', array(), '20190403' );
   wp_enqueue_script('pixelApp', get_stylesheet_directory_uri() . $build_dir . '/js/scripts.min.js', [], '20190626', true);
 }
 add_action( 'wp_enqueue_scripts', 'customEnqueue' );
@@ -26,6 +26,36 @@ wp_head();
  ?>
 
 <?php include 'partials/page-widgets.php' ?>
+
+<style>
+.form-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+::placeholder {
+  color: #BBC2CE;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #BBC2CE;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #BBC2CE;
+}
+    
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid ddd;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+</style>
  
 <body class="home" >
     <div id="page" class="hfeed site">
@@ -43,7 +73,7 @@ wp_head();
             <p class="headline">Web Designs, <br class="brkpt">Ecommerce, <br>Maintenance & SEO</p>
             <p class="headline-descr">If your website isn't optimized for your unique business requirements, you're leaving money on the table.</p>
             <div class="button-container">
-                <img onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button.png">
+                <img onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shopifyrez/30min'});return false;" class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-01-mobile-work-button-2.png">
             </div>
         </div>
 </section>
@@ -441,22 +471,35 @@ wp_head();
                 
 <section class="section-06-mobile">
     <div class="one-column">
-        <p class="contact">CONTACT US</p>
-        <p class="large-contact">Get in touch,<br>we’ll love to<br>hear from you</p>
-        
-        <p class="contact-descr-text">Your Name</p>
-        <p class="entered">Cosmin Neagu</p>
-        
-        <p class="entry">Email Address</p>
-        
-        <p class="entry">Phone</p>
-        
-        <p class="entry">What Service(s) are you interested in? <img class="arrow" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
-        
-        <p class="entry">How did you find us?</p>
-        
-        <div class="button-container">
-            <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
+
+        <!-- Form -->
+        <div class="form-container">
+            <form action="./contact" method="post">
+                <div class="elem-group">
+                    <input type="text" id="name" name="visitor_name" placeholder="Your Name" class="entry" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <input type="email" id="email" name="visitor_email" placeholder="Email Address" class="entry" required>
+                </div>
+                <div class="elem-group">
+                    <input type="phone" id="phone" name="visitor_phone" placeholder="Phone" class="entry" required>
+                </div>
+                <div class="elem-group">
+                    <select id="services-selection" name="concerned_service" class="entry-drop" required>
+                        <option value="">What Service(s) are you interested in?</option>
+                        <option value="web-design">Website Design</option>
+                        <option value="ecom-design">Ecommerce Design</option>
+                        <option value="logo-design">Logo Design</option>
+                        <option value="social-media">Social Media Networking</option>
+                        <option value="maintenance">Maintenance</option>
+                        <option value="seo">Search Engine Optimization</option>
+                    </select>
+                </div>
+                <div class="elem-group">
+                    <input type="foundus" id="foundus" name="visitor_foundus" placeholder="How did you find us?" class="entry" required>
+                </div>
+                <button class="work-button" type="submit"><img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png"></button>
+            </form>
         </div>
     </div>
 </section>
@@ -473,18 +516,19 @@ wp_head();
             <div class="right-side">
 
                 <!-- Form -->
+                <div class="form-container">
                     <form action="./contact" method="post">
                         <div class="elem-group">
-                            <input type="text" id="name" name="visitor_name" placeholder="Your Name" pattern=[A-Z\sa-z]{3,20} required>
+                            <input type="text" id="name" name="visitor_name" placeholder="Your Name" class="entry" pattern=[A-Z\sa-z]{3,20} required>
                         </div>
                         <div class="elem-group">
-                            <input type="email" id="email" name="visitor_email" placeholder="Email Address" required>
+                            <input type="email" id="email" name="visitor_email" placeholder="Email Address" class="entry" required>
                         </div>
                         <div class="elem-group">
-                            <input type="phone" id="phone" name="visitor_phone" placeholder="Phone" required>
+                            <input type="phone" id="phone" name="visitor_phone" placeholder="Phone" class="entry" required>
                         </div>
                         <div class="elem-group">
-                            <select id="services-selection" name="concerned_service" required>
+                            <select id="services-selection" name="concerned_service" class="entry-drop" required>
                                 <option value="">What Service(s) are you interested in?</option>
                                 <option value="web-design">Website Design</option>
                                 <option value="ecom-design">Ecommerce Design</option>
@@ -495,24 +539,10 @@ wp_head();
                             </select>
                         </div>
                         <div class="elem-group">
-                            <input type="foundus" id="foundus" name="visitor_foundus" placeholder="How did you find us?" required>
+                            <input type="foundus" id="foundus" name="visitor_foundus" placeholder="How did you find us?" class="entry" required>
                         </div>
-                        <button type="submit"><img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png"></button>
+                        <button class="work-button" type="submit"><img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png"></button>
                     </form>
-                <!-- Place Holder -->
-                <p class="contact-descr-text">Your Name</p>
-                <p class="entered">Cosmin Neagu</p>
-
-                <p class="entry">Email Address</p>
-
-                <p class="entry">Phone</p>
-
-                <p class="entry">What Service(s) are you interested in? <img class="arrow" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-down-arrow.png"></p>
-
-                <p class="entry">How did you find us?</p>
-
-                <div class="button-container">
-                    <img class="work-button" src="wp-content/themes/pixelGenesis/content/build/image-min/section-06-mobile-message-button.png">
                 </div>
             </div>
         </div>

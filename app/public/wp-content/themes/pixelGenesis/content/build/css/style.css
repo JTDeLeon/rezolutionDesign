@@ -833,22 +833,32 @@ header .mob-header {
   .home .section-06-mobile .entry {
     text-align: left;
     font-family: RomanBody;
-    font-size: 1.2em;
-    color: #bfc2ce;
+    font-size: .6em;
+    color: #3a5dfb;
     line-height: 1.1em;
-    margin: 40px 30px 30px 50px; }
-    @media screen and (max-width: 600px) {
+    margin: 0px 0px 30px 0px;
+    border-bottom: 1px solid #ddd; }
+    @media screen and (max-width: 767px) {
+      .home .section-06-mobile .entry {
+        font-size: 1.5em; } }
+    @media screen and (max-width: 620px) {
+      .home .section-06-mobile .entry {
+        font-size: 1.2em; } }
+    @media screen and (max-width: 520px) {
       .home .section-06-mobile .entry {
         font-size: 1em; } }
-    @media screen and (max-width: 550px) {
-      .home .section-06-mobile .entry {
-        font-size: .8em; } }
-    @media screen and (max-width: 485px) {
+    @media screen and (max-width: 450px) {
       .home .section-06-mobile .entry {
         font-size: .7em; } }
-    @media screen and (max-width: 435px) {
+    @media screen and (min-width: 1024px) {
       .home .section-06-mobile .entry {
-        font-size: .6em; } }
+        font-size: 1.5em; } }
+    @media screen and (min-width: 900px) {
+      .home .section-06-mobile .entry {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 768px) {
+      .home .section-06-mobile .entry {
+        font-size: 1.1em; } }
   .home .section-06-mobile .entry:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
@@ -860,8 +870,57 @@ header .mob-header {
     /* This creates some space between the element and the border. */
     border-bottom: 1px solid #bfc2ce;
     /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-06-mobile .entry-drop {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: .6em;
+    color: #bfc2ce;
+    line-height: 1.1em;
+    margin: 0px 0px 30px 0px;
+    border-bottom: 1px solid #ddd;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    -webkit-appearance: none;
+    /*Removes default chrome and safari style*/
+    -moz-appearance: none;
+    /*Removes default style Firefox*/
+    background: url("../image-min/section-06-mobile-down-arrow.png") no-repeat;
+    background-position: right;
+    /*Position of the background-image*/ }
+    @media screen and (max-width: 768px) {
+      .home .section-06-mobile .entry-drop {
+        font-size: 1.5em; } }
+    @media screen and (max-width: 620px) {
+      .home .section-06-mobile .entry-drop {
+        font-size: 1.2em; } }
+    @media screen and (max-width: 520px) {
+      .home .section-06-mobile .entry-drop {
+        font-size: 1em; } }
+    @media screen and (max-width: 450px) {
+      .home .section-06-mobile .entry-drop {
+        font-size: .7em; } }
+    @media screen and (min-width: 1024px) {
+      .home .section-06-mobile .entry-drop {
+        font-size: 1.5em; } }
+    @media screen and (min-width: 900px) {
+      .home .section-06-mobile .entry-drop {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 768px) {
+      .home .section-06-mobile .entry-drop {
+        font-size: 1.1em; } }
   .home .section-06-mobile .arrow {
     margin: 0 0 0 8vw; }
+  .home .section-06-mobile button {
+    background: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 24px;
+    width: 96%; }
   .home .section-06-mobile .button-container {
     text-align: center;
     margin: 50px auto -50px; }
@@ -909,6 +968,8 @@ header .mob-header {
       .home .section-06 .two-column {
         flex-direction: row;
         margin: auto; } }
+    .home .section-06 .two-column .right-side {
+      margin: auto; }
     .home .section-06 .two-column .left-side img {
       max-width: 100%; }
   .home .section-06 .contact-descr-text {
@@ -939,10 +1000,11 @@ header .mob-header {
   .home .section-06 .entry {
     text-align: left;
     font-family: RomanBody;
-    font-size: 1.2em;
-    color: #bfc2ce;
+    font-size: .6em;
+    color: #3a5dfb;
     line-height: 1.1em;
-    margin: 40px 30px 30px 50px; }
+    margin: 0px 0px 30px 0px;
+    border-bottom: 1px solid #ddd; }
     @media screen and (max-width: 600px) {
       .home .section-06 .entry {
         font-size: 1em; } }
@@ -955,6 +1017,15 @@ header .mob-header {
     @media screen and (max-width: 435px) {
       .home .section-06 .entry {
         font-size: .6em; } }
+    @media screen and (min-width: 1024px) {
+      .home .section-06 .entry {
+        font-size: 1.5em; } }
+    @media screen and (min-width: 900px) {
+      .home .section-06 .entry {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 768px) {
+      .home .section-06 .entry {
+        font-size: 1.1em; } }
   .home .section-06 .entry:after {
     content: "";
     /* This is necessary for the pseudo element to work. */
@@ -966,6 +1037,55 @@ header .mob-header {
     /* This creates some space between the element and the border. */
     border-bottom: 1px solid #bfc2ce;
     /* This creates the border. Replace black with whatever color you want. */ }
+  .home .section-06 .entry-drop {
+    text-align: left;
+    font-family: RomanBody;
+    font-size: .6em;
+    color: #bfc2ce;
+    line-height: 1.1em;
+    margin: 0px 0px 30px 0px;
+    border-bottom: 1px solid #ddd;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    -webkit-appearance: none;
+    /*Removes default chrome and safari style*/
+    -moz-appearance: none;
+    /*Removes default style Firefox*/
+    background: url("../image-min/section-06-mobile-down-arrow.png") no-repeat;
+    background-position: right;
+    /*Position of the background-image*/ }
+    @media screen and (max-width: 600px) {
+      .home .section-06 .entry-drop {
+        font-size: 1em; } }
+    @media screen and (max-width: 550px) {
+      .home .section-06 .entry-drop {
+        font-size: .8em; } }
+    @media screen and (max-width: 485px) {
+      .home .section-06 .entry-drop {
+        font-size: .7em; } }
+    @media screen and (max-width: 435px) {
+      .home .section-06 .entry-drop {
+        font-size: .6em; } }
+    @media screen and (min-width: 1024px) {
+      .home .section-06 .entry-drop {
+        font-size: 1.5em; } }
+    @media screen and (min-width: 900px) {
+      .home .section-06 .entry-drop {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 768px) {
+      .home .section-06 .entry-drop {
+        font-size: 1.1em; } }
+  .home .section-06 button {
+    background: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 24px;
+    width: 96%; }
   .home .section-06 .arrow {
     margin: 0 0 0 8vw; }
   .home .section-06 .button-container {
@@ -986,7 +1106,7 @@ footer {
     background: url(../image-min/footer-rez-mob-bg3.png) center center no-repeat;
     display: flex;
     min-height: 1100px;
-    padding: 130px 30px 0;
+    padding: 210px 30px 0;
     flex-direction: column;
     max-width: 768px;
     margin: auto; }
