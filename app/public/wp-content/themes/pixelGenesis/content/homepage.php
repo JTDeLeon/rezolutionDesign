@@ -471,7 +471,10 @@ input {
                 
 <section class="section-06-mobile">
     <div class="one-column">
-
+        <p class="contact">CONTACT US</p>
+        <div class="left-side">
+                <p class="large-contact">Get in touch,<br>we’ll love to<br>hear from you</p>
+            </div>
         <!-- Form -->
         <div class="form-container">
             <form action="./contact" method="post">
