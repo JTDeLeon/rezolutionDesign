@@ -1539,6 +1539,12 @@ footer {
                     }
                 }
             }
+
+            .leftrow {
+                @media (max-width: 550px) {
+                    margin-right: 20px;
+                }
+            }
         }
 
         .rezLogoBottom {

@@ -1136,6 +1136,9 @@ footer {
           footer .mob-footer .row-container-footer .row img {
             width: auto;
             padding: 15px; } }
+    @media (max-width: 550px) {
+      footer .mob-footer .row-container-footer .leftrow {
+        margin-right: 20px; } }
     footer .mob-footer .rezLogoBottom {
       margin: 70px auto; }
     footer .mob-footer .footerMenu div {

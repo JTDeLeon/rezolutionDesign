@@ -3,7 +3,7 @@
         <h3 class="footer-title">TECHNOLOGY PARTNERS</h3>
         <div class="row-container-footer">
             <!-- First row of logos -->
-            <div class="row flex">
+            <div class="row flex leftrow">
                 <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyexperts.png" alt="">
                 <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyplus.png" alt="">
                 <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-drip.png" alt="">
