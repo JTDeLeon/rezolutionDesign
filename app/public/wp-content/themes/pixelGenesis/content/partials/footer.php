@@ -1,19 +1,21 @@
 <footer>
     <div class="mob-footer">
         <h3 class="footer-title">TECHNOLOGY PARTNERS</h3>
-        <!-- First row of logos -->
-        <div class="row flex">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyexperts.png" alt="">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyplus.png" alt="">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-drip.png" alt="">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-klaviyc.png" alt="">
-        </div>
-        <!-- Second Row of logos -->
-        <div class="row flex">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-spently.png" alt="">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-magento.png" alt="">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-woocommerce.png" alt="">
-            <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-wordpress.png" alt="">
+        <div class="row-container-footer">
+            <!-- First row of logos -->
+            <div class="row flex">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyexperts.png" alt="">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyplus.png" alt="">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-drip.png" alt="">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-klaviyc.png" alt="">
+            </div>
+            <!-- Second Row of logos -->
+            <div class="row flex">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-spently.png" alt="">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-magento.png" alt="">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-woocommerce.png" alt="">
+                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-wordpress.png" alt="">
+            </div>
         </div>
 
         <div class="flex rezLogoBottom">

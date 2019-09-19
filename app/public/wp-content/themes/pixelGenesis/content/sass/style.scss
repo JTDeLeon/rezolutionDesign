@@ -1512,23 +1512,31 @@ footer {
             letter-spacing: 1.5px;
         }
 
-        .row {
-            max-height: 100px;
-            justify-content: space-evenly;
-            margin-bottom: 30px;
+        .row-container-footer {
 
             @media (max-width: 550px) {
-                flex-wrap: wrap;
-                // width: 330px;
+                display: flex;
             }
-        
-            img {
-                margin-bottom: 0;
-                padding: 10px 20px;
+
+            .row {
+                max-height: 100px;
+                justify-content: space-evenly;
+                margin-bottom: 30px;
 
                 @media (max-width: 550px) {
-                    width: 75px;
-                    padding: 10px;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    max-height: 100%;
+                }
+            
+                img {
+                    margin-bottom: 0;
+                    padding: 10px 20px;
+
+                    @media (max-width: 550px) {
+                        width: auto;
+                        padding: 15px;
+                    }
                 }
             }
         }
@@ -1607,13 +1615,13 @@ footer {
                 .row {
                     max-width: 1260px;
                     @media (max-width: 1360px) {
-                        width: 1000px;
+                        width: 1260px;
                     }
                     @media (max-width: 1135px) {
-                        width: 900px;
+                        width: 1050px;
                     }
                     @media (max-width: 1035px) {
-                        width: 800px;
+                        width: 990px;
                     }
                     @media (max-width: 935px) {
                         flex-wrap: wrap;

@@ -1117,20 +1117,25 @@ footer {
       border-bottom: 1px solid white;
       color: white;
       letter-spacing: 1.5px; }
-    footer .mob-footer .row {
+    @media (max-width: 550px) {
+      footer .mob-footer .row-container-footer {
+        display: flex; } }
+    footer .mob-footer .row-container-footer .row {
       max-height: 100px;
       justify-content: space-evenly;
       margin-bottom: 30px; }
       @media (max-width: 550px) {
-        footer .mob-footer .row {
-          flex-wrap: wrap; } }
-      footer .mob-footer .row img {
+        footer .mob-footer .row-container-footer .row {
+          flex-wrap: wrap;
+          flex-direction: column;
+          max-height: 100%; } }
+      footer .mob-footer .row-container-footer .row img {
         margin-bottom: 0;
         padding: 10px 20px; }
         @media (max-width: 550px) {
-          footer .mob-footer .row img {
-            width: 75px;
-            padding: 10px; } }
+          footer .mob-footer .row-container-footer .row img {
+            width: auto;
+            padding: 15px; } }
     footer .mob-footer .rezLogoBottom {
       margin: 70px auto; }
     footer .mob-footer .footerMenu div {
@@ -1181,13 +1186,13 @@ footer {
           max-width: 1260px; } }
       @media (min-width: 769px) and (max-width: 1360px) {
         footer .desk-footer .inside-footer-container .row {
-          width: 1000px; } }
+          width: 1260px; } }
       @media (min-width: 769px) and (max-width: 1135px) {
         footer .desk-footer .inside-footer-container .row {
-          width: 900px; } }
+          width: 1050px; } }
       @media (min-width: 769px) and (max-width: 1035px) {
         footer .desk-footer .inside-footer-container .row {
-          width: 800px; } }
+          width: 990px; } }
       @media (min-width: 769px) and (max-width: 935px) {
         footer .desk-footer .inside-footer-container .row {
           flex-wrap: wrap;
