@@ -805,6 +805,9 @@ header .mob-header {
     color: #252d4b;
     line-height: 1em;
     margin: 35px 30px 20px 50px; }
+    @media only screen and (max-width: 435px) {
+      .home .section-06-mobile .large-contact {
+        font-size: 2.2em; } }
   .home .section-06-mobile .contact-descr-text {
     text-align: left;
     font-family: RomanBody;
