@@ -1645,6 +1645,9 @@ footer {
                     .mzeroleft {
                         margin-left: 0;
                     }
+                    .heightfifty {
+                        height: 50px;
+                    }
                 }
 
                 .bottom-sect {
@@ -1656,6 +1659,9 @@ footer {
                         @media (max-width: 1155px) {
                             width: 30%;
                         }
+                        img {
+                            width: 300px;
+                        }
 
                         .social-bars {
                             margin-top: 100px;
@@ -1663,6 +1669,11 @@ footer {
                             display: flex;
                             justify-content: space-evenly;
                             margin-left: 0;
+
+                            a {
+                                width: 40px;
+                                margin: auto;
+                            }
                         }
                     }
 

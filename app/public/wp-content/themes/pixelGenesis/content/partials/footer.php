@@ -50,24 +50,24 @@
             <h3 class="footer-title">TECHNOLOGY PARTNERS</h3>
             <!-- First row of logos -->
             <div class="row flex">
-                <img class="mauto mzeroleft" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyexperts.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-shopifyplus.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-drip.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-klaviyc.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-spently.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-magento.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-woocommerce.png" alt="">
-                <img class="mauto" src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-wordpress.png" alt="">
+                <img class="mauto heightfifty mzeroleft" src="wp-content/themes/pixelGenesis/content/build/image-min/Shopify Experts Final.png" alt="">
+                <img class="mauto heightfifty" src="wp-content/themes/pixelGenesis/content/build/image-min/Shopify Plus+ Final.png" alt="">
+                <img class="mauto heightfifty" src="wp-content/themes/pixelGenesis/content/build/image-min/drip-logo+Final.png" alt="">
+                <img class="mauto heightfifty" src="wp-content/themes/pixelGenesis/content/build/image-min/klaviyo_logo.png" alt="">
+                <img class="mauto heightfifty" src="wp-content/themes/pixelGenesis/content/build/image-min/Spently-Black-Large+Final.png" alt="">
+                <img class="mauto heightfifty" src="wp-content/themes/pixelGenesis/content/build/image-min/Magento.png" alt="">
+                <img class="mauto heightfifty" src="wp-content/themes/pixelGenesis/content/build/image-min/woocommerce-logo+Final.png" alt="">
+                <img class="mauto heightfifty" src="wp-content/themes/pixelGenesis/content/build/image-min/WP.png" alt="">
             </div>
 
             <div class="bottom-sect">
                 <div class="left-sec">
-                    <img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-rezolutionLogo.png" alt="" class="rezolution-logo">
+                    <img src="wp-content/themes/pixelGenesis/content/build/image-min/2-copy.png" alt="" class="rezolution-logo">
                     <div class="social-bars">
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-fb.png" alt=""></a>
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-linkin.png" alt=""></a>
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-twitter.png" alt=""></a>
-                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/footer-rez-mob-insta.png" alt=""></a>
+                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/Facebook.png" alt=""></a>
+                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/Linkedin.png" alt=""></a>
+                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/Twitter.png" alt=""></a>
+                        <a href="#"><img src="wp-content/themes/pixelGenesis/content/build/image-min/Instagram.png" alt=""></a>
                     </div>
                 </div>
                 <div class="right-sec">
